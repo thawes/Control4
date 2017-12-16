@@ -1,0 +1,412 @@
+<devicedata>
+  <version>2</version>
+  <config>
+    <irsettings />
+    <power_command_delay>0</power_command_delay>
+    <power_delay>0</power_delay>
+    <power_management_method>AlwaysOn</power_management_method>
+    <irsection>
+      <ircodes>
+        <ircode verified="False" controlrating="0">
+          <id>103</id>
+          <name>Power Toggle</name>
+          <transmit>PULSE</transmit>
+          <repeatcount>1</repeatcount>
+          <delayafter>0</delayafter>
+          <pattern />
+          <altpattern />
+        </ircode>
+      </ircodes>
+      <ircodemacros>
+        <ircodemacro verified="False" id="0">
+          <commandname>SET_OUTPUT_INPUT_1_2</commandname>
+          <displayname>Switch output Component Out to input HDMI In</displayname>
+        </ircodemacro>
+        <ircodemacro verified="False" id="0">
+          <commandname>SET_OUTPUT_INPUT_3_4</commandname>
+          <displayname>Switch output Optical Out to input Stereo In</displayname>
+        </ircodemacro>
+        <ircodemacro verified="False" id="0">
+          <commandname>SET_OUTPUT_INPUT_0_1</commandname>
+          <displayname>Switch output Coaxial Out to input Component In</displayname>
+        </ircodemacro>
+        <ircodemacro verified="False" id="0">
+          <commandname>SET_OUTPUT_INPUT_4_2</commandname>
+          <displayname>Switch output Stereo Out to input HDMI In</displayname>
+        </ircodemacro>
+        <ircodemacro verified="False" id="0">
+          <commandname>CONNECT_OUTPUT_3</commandname>
+          <displayname>Connect output Optical Out</displayname>
+        </ircodemacro>
+        <ircodemacro verified="False" id="0">
+          <commandname>SET_OUTPUT_INPUT_3_1</commandname>
+          <displayname>Switch output Optical Out to input Component In</displayname>
+        </ircodemacro>
+        <ircodemacro verified="False" id="0">
+          <commandname>SET_OUTPUT_INPUT_2_3</commandname>
+          <displayname>Switch output HDMI Out to input Optical In</displayname>
+        </ircodemacro>
+        <ircodemacro verified="False" id="0">
+          <commandname>SET_OUTPUT_INPUT_2_4</commandname>
+          <displayname>Switch output HDMI Out to input Stereo In</displayname>
+        </ircodemacro>
+        <ircodemacro verified="False" id="0">
+          <commandname>DISCONNECT_OUTPUT_4</commandname>
+          <displayname>Disconnect output Stereo Out</displayname>
+        </ircodemacro>
+        <ircodemacro verified="False" id="0">
+          <commandname>SET_OUTPUT_INPUT_0_0</commandname>
+          <displayname>Switch output Coaxial Out to input Coaxial In</displayname>
+        </ircodemacro>
+        <ircodemacro verified="False" id="0">
+          <commandname>CONNECT_OUTPUT_0</commandname>
+          <displayname>Connect output Coaxial Out</displayname>
+        </ircodemacro>
+        <ircodemacro verified="False" id="0">
+          <commandname>SET_OUTPUT_INPUT_3_0</commandname>
+          <displayname>Switch output Optical Out to input Coaxial In</displayname>
+        </ircodemacro>
+        <ircodemacro verified="False" id="0">
+          <commandname>SET_OUTPUT_INPUT_2_2</commandname>
+          <displayname>Switch output HDMI Out to input HDMI In</displayname>
+        </ircodemacro>
+        <ircodemacro verified="False" id="0">
+          <commandname>DISCONNECT_OUTPUT_0</commandname>
+          <displayname>Disconnect output Coaxial Out</displayname>
+        </ircodemacro>
+        <ircodemacro verified="False" id="0">
+          <commandname>SET_OUTPUT_INPUT_1_1</commandname>
+          <displayname>Switch output Component Out to input Component In</displayname>
+        </ircodemacro>
+        <ircodemacro verified="False" id="0">
+          <commandname>SET_OUTPUT_INPUT_0_3</commandname>
+          <displayname>Switch output Coaxial Out to input Optical In</displayname>
+        </ircodemacro>
+        <ircodemacro verified="False" id="0">
+          <commandname>CONNECT_OUTPUT_1</commandname>
+          <displayname>Connect output Component Out</displayname>
+        </ircodemacro>
+        <ircodemacro verified="False" id="0">
+          <commandname>SET_OUTPUT_INPUT_4_1</commandname>
+          <displayname>Switch output Stereo Out to input Component In</displayname>
+        </ircodemacro>
+        <ircodemacro verified="False" id="0">
+          <commandname>SET_OUTPUT_INPUT_3_3</commandname>
+          <displayname>Switch output Optical Out to input Optical In</displayname>
+        </ircodemacro>
+        <ircodemacro verified="False" id="0">
+          <commandname>CONNECT_OUTPUT_4</commandname>
+          <displayname>Connect output Stereo Out</displayname>
+        </ircodemacro>
+        <ircodemacro verified="False" id="0">
+          <commandname>DISCONNECT_OUTPUT_3</commandname>
+          <displayname>Disconnect output Optical Out</displayname>
+        </ircodemacro>
+        <ircodemacro verified="False" id="0">
+          <commandname>DISCONNECT_OUTPUT_2</commandname>
+          <displayname>Disconnect output HDMI Out</displayname>
+        </ircodemacro>
+        <ircodemacro verified="False" id="0">
+          <commandname>SET_OUTPUT_INPUT_0_4</commandname>
+          <displayname>Switch output Coaxial Out to input Stereo In</displayname>
+        </ircodemacro>
+        <ircodemacro verified="False" id="0">
+          <commandname>DISCONNECT_OUTPUT_1</commandname>
+          <displayname>Disconnect output Component Out</displayname>
+        </ircodemacro>
+        <ircodemacro verified="False" id="0">
+          <commandname>SET_OUTPUT_INPUT_1_0</commandname>
+          <displayname>Switch output Component Out to input Coaxial In</displayname>
+        </ircodemacro>
+        <ircodemacro verified="False" id="0">
+          <commandname>SET_OUTPUT_INPUT_0_2</commandname>
+          <displayname>Switch output Coaxial Out to input HDMI In</displayname>
+        </ircodemacro>
+        <ircodemacro verified="False" id="0">
+          <commandname>SET_OUTPUT_INPUT_4_0</commandname>
+          <displayname>Switch output Stereo Out to input Coaxial In</displayname>
+        </ircodemacro>
+        <ircodemacro verified="False" id="0">
+          <commandname>SET_OUTPUT_INPUT_3_2</commandname>
+          <displayname>Switch output Optical Out to input HDMI In</displayname>
+        </ircodemacro>
+        <ircodemacro verified="False" id="0">
+          <commandname>SET_OUTPUT_INPUT_2_1</commandname>
+          <displayname>Switch output HDMI Out to input Component In</displayname>
+        </ircodemacro>
+        <ircodemacro verified="False" id="0">
+          <commandname>SET_OUTPUT_INPUT_1_3</commandname>
+          <displayname>Switch output Component Out to input Optical In</displayname>
+        </ircodemacro>
+        <ircodemacro verified="False" id="0">
+          <commandname>SET_OUTPUT_INPUT_1_4</commandname>
+          <displayname>Switch output Component Out to input Stereo In</displayname>
+        </ircodemacro>
+        <ircodemacro verified="False" id="0">
+          <commandname>SET_OUTPUT_INPUT_4_3</commandname>
+          <displayname>Switch output Stereo Out to input Optical In</displayname>
+        </ircodemacro>
+        <ircodemacro verified="False" id="0">
+          <commandname>CONNECT_OUTPUT_2</commandname>
+          <displayname>Connect output HDMI Out</displayname>
+        </ircodemacro>
+        <ircodemacro verified="False" id="0">
+          <commandname>SET_OUTPUT_INPUT_4_4</commandname>
+          <displayname>Switch output Stereo Out to input Stereo In</displayname>
+        </ircodemacro>
+        <ircodemacro verified="False" id="0">
+          <commandname>SET_OUTPUT_INPUT_2_0</commandname>
+          <displayname>Switch output HDMI Out to input Coaxial In</displayname>
+        </ircodemacro>
+      </ircodemacros>
+    </irsection>
+  </config>
+  <name>AV Converter AV Converter</name>
+  <small />
+  <large />
+  <control>av_gen</control>
+  <controlmethod>ir</controlmethod>
+  <proxies>
+    <proxy proxybindingid="5001">avswitch</proxy>
+  </proxies>
+  <driver>100050</driver>
+  <manufacturer>AV Converter</manufacturer>
+  <created>11/28/2016 9:45:59 PM</created>
+  <modified>1/24/2017 9:11:26 PM</modified>
+  <copyright>Copyright 2004-2005 Control4 Corporation.  All rights reserved.</copyright>
+  <creator>tim@thawes.com</creator>
+  <model>AV Converter</model>
+  <search_type name="">c4:av_gen</search_type>
+  <states />
+  <commands />
+  <conditionals />
+  <events />
+  <connections>
+    <connection>
+      <id>4004</id>
+      <type>6</type>
+      <connectionname>Stereo Out</connectionname>
+      <consumer>False</consumer>
+      <linelevel>True</linelevel>
+      <classes>
+        <class>
+          <classname>STEREO</classname>
+        </class>
+      </classes>
+    </connection>
+    <connection>
+      <id>4003</id>
+      <type>6</type>
+      <connectionname>Optical Out</connectionname>
+      <consumer>False</consumer>
+      <linelevel>True</linelevel>
+      <classes>
+        <class>
+          <classname>DIGITAL_OPTICAL</classname>
+        </class>
+      </classes>
+    </connection>
+    <connection>
+      <id>4000</id>
+      <type>6</type>
+      <connectionname>Coaxial Out</connectionname>
+      <consumer>False</consumer>
+      <linelevel>True</linelevel>
+      <classes>
+        <class>
+          <classname>DIGITAL_COAX</classname>
+        </class>
+      </classes>
+    </connection>
+    <connection>
+      <id>3004</id>
+      <type>6</type>
+      <connectionname>Stereo In</connectionname>
+      <consumer>True</consumer>
+      <linelevel>True</linelevel>
+      <classes>
+        <class>
+          <classname>STEREO</classname>
+        </class>
+      </classes>
+    </connection>
+    <connection>
+      <id>3003</id>
+      <type>6</type>
+      <connectionname>Optical In</connectionname>
+      <consumer>True</consumer>
+      <linelevel>True</linelevel>
+      <classes>
+        <class>
+          <classname>DIGITAL_OPTICAL</classname>
+        </class>
+      </classes>
+    </connection>
+    <connection>
+      <id>3000</id>
+      <type>6</type>
+      <connectionname>Coaxial In</connectionname>
+      <consumer>True</consumer>
+      <linelevel>True</linelevel>
+      <classes>
+        <class>
+          <classname>DIGITAL_COAX</classname>
+        </class>
+      </classes>
+    </connection>
+    <connection>
+      <id>7004</id>
+      <type>7</type>
+      <connectionname>Stereo Out Audio/Video End-Point</connectionname>
+      <consumer>False</consumer>
+      <linelevel>True</linelevel>
+      <classes>
+        <class>
+          <classname>AUDIO_SELECTION</classname>
+        </class>
+        <class>
+          <classname>AUDIO_VOLUME</classname>
+        </class>
+      </classes>
+    </connection>
+    <connection>
+      <id>7003</id>
+      <type>7</type>
+      <connectionname>Optical Out Audio/Video End-Point</connectionname>
+      <consumer>False</consumer>
+      <linelevel>True</linelevel>
+      <classes>
+        <class>
+          <classname>AUDIO_SELECTION</classname>
+        </class>
+        <class>
+          <classname>AUDIO_VOLUME</classname>
+        </class>
+      </classes>
+    </connection>
+    <connection>
+      <id>7002</id>
+      <type>7</type>
+      <connectionname>HDMI Out Video End-Point</connectionname>
+      <consumer>False</consumer>
+      <linelevel>True</linelevel>
+      <classes>
+        <class>
+          <classname>VIDEO_SELECTION</classname>
+        </class>
+      </classes>
+    </connection>
+    <connection>
+      <id>7001</id>
+      <type>7</type>
+      <connectionname>Component Out Video End-Point</connectionname>
+      <consumer>False</consumer>
+      <linelevel>True</linelevel>
+      <classes>
+        <class>
+          <classname>VIDEO_SELECTION</classname>
+        </class>
+      </classes>
+    </connection>
+    <connection>
+      <id>7000</id>
+      <type>7</type>
+      <connectionname>Coaxial Out Audio/Video End-Point</connectionname>
+      <consumer>False</consumer>
+      <linelevel>True</linelevel>
+      <classes>
+        <class>
+          <classname>AUDIO_SELECTION</classname>
+        </class>
+        <class>
+          <classname>AUDIO_VOLUME</classname>
+        </class>
+      </classes>
+    </connection>
+    <connection>
+      <id>2002</id>
+      <type>5</type>
+      <connectionname>HDMI Out</connectionname>
+      <consumer>False</consumer>
+      <linelevel>True</linelevel>
+      <classes>
+        <class>
+          <classname>HDMI</classname>
+        </class>
+      </classes>
+    </connection>
+    <connection>
+      <id>2001</id>
+      <type>5</type>
+      <connectionname>Component Out</connectionname>
+      <consumer>False</consumer>
+      <linelevel>True</linelevel>
+      <classes>
+        <class>
+          <classname>COMPONENT</classname>
+        </class>
+      </classes>
+    </connection>
+    <connection>
+      <id>1002</id>
+      <type>5</type>
+      <connectionname>HDMI In</connectionname>
+      <consumer>True</consumer>
+      <linelevel>True</linelevel>
+      <classes>
+        <class>
+          <classname>HDMI</classname>
+        </class>
+      </classes>
+    </connection>
+    <connection>
+      <id>1001</id>
+      <type>5</type>
+      <connectionname>Component In</connectionname>
+      <consumer>True</consumer>
+      <linelevel>True</linelevel>
+      <classes>
+        <class>
+          <classname>COMPONENT</classname>
+        </class>
+      </classes>
+    </connection>
+    <connection>
+      <id>5001</id>
+      <type>2</type>
+      <connectionname>AV Switch</connectionname>
+      <consumer>False</consumer>
+      <linelevel>True</linelevel>
+      <classes>
+        <class>
+          <classname>AVSWITCH</classname>
+        </class>
+      </classes>
+    </connection>
+    <connection>
+      <id>1</id>
+      <type>1</type>
+      <connectionname>IR Sensor</connectionname>
+      <consumer>True</consumer>
+      <linelevel>True</linelevel>
+      <classes>
+        <class>
+          <classname>IR_OUT</classname>
+        </class>
+      </classes>
+    </connection>
+  </connections>
+  <capabilities>
+    <audio_consumer_count>3</audio_consumer_count>
+    <audio_provider_count>3</audio_provider_count>
+    <can_downclass>True</can_downclass>
+    <can_upclass>True</can_upclass>
+    <has_audio>False</has_audio>
+    <has_audio_signal_sense>True</has_audio_signal_sense>
+    <has_discrete_input_select>True</has_discrete_input_select>
+    <has_toad_input_select>False</has_toad_input_select>
+    <has_video_signal_sense>True</has_video_signal_sense>
+    <video_consumer_count>2</video_consumer_count>
+    <video_provider_count>2</video_provider_count>
+  </capabilities>
+</devicedata>

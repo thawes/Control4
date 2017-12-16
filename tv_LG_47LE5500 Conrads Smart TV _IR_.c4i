@@ -1,0 +1,1224 @@
+<devicedata>
+  <version>8</version>
+  <config>
+    <irsettings />
+    <power_command_delay>0</power_command_delay>
+    <power_command_needed>True</power_command_needed>
+    <power_delay>12</power_delay>
+    <power_management_method>DiscreteCodes</power_management_method>
+    <rfs>
+      <rf>rf_cable</rf>
+      <rf>rf_uhf_vhf</rf>
+    </rfs>
+    <irsection>
+      <ircodes>
+        <ircode verified="False" controlrating="0">
+          <id>121</id>
+          <name>CANCEL</name>
+          <transmit>PULSE</transmit>
+          <repeatcount>1</repeatcount>
+          <delayafter>0</delayafter>
+          <pattern>0000 006d 0000 0024 0158 00ad 0015 0016 0015 0016 0015 0041 0015 0016 0015 0016 0015 0016 0015 0016 0015 0016 0015 0041 0015 0041 0015 0016 0015 0041 0015 0041 0015 0041 0015 0041 0015 0041 0015 0041 0015 0041 0015 0016 0015 0041 0015 0041 0015 0016 0015 0041 0015 0016 0015 0016 0015 0016 0015 0042 0015 0016 0015 0016 0015 0041 0015 0016 0015 0041 0015 061f 0158 0057 0015 061f</pattern>
+          <altpattern />
+        </ircode>
+        <ircode verified="False" controlrating="0">
+          <id>41166</id>
+          <name>HDMI3</name>
+          <transmit>PULSE</transmit>
+          <repeatcount>5</repeatcount>
+          <delayafter>0</delayafter>
+          <pattern>0000 0067 0022 0002 0156 00ab 0016 0016 0016 0016 0016 003f 0016 0016 0016 0016 0016 0016 0016 0016 0016 0016 0016 003f 0016 003f 0016 0016 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 0016 0016 0016 0016 003f 0016 0016 0016 003f 0016 003f 0016 003f 0016 0016 0016 003f 0016 003f 0016 0016 0016 003f 0016 0016 0016 0016 0016 0016 0016 0593 0160 0058 0016 0dc0</pattern>
+          <altpattern />
+        </ircode>
+        <ircode verified="False" controlrating="0">
+          <id>19100</id>
+          <name>DASP  (L30W36)</name>
+          <transmit>PULSE</transmit>
+          <repeatcount>5</repeatcount>
+          <delayafter>0</delayafter>
+          <pattern>0000 006c 0022 0002 0155 00ab 0015 0016 0015 0015 0015 0041 0015 0015 0015 0016 0015 0015 0015 0016 0015 0015 0015 0042 0015 0040 0015 0016 0015 0040 0015 0041 0015 0040 0015 0041 0015 0040 0015 0041 0015 0040 0015 0041 0015 0015 0015 0016 0015 0015 0015 0041 0015 0015 0015 0016 0015 0015 0015 0016 0015 0040 0015 0041 0015 0040 0015 0016 0015 0040 0015 05f5 0155 0056 0015 0e58</pattern>
+          <altpattern />
+        </ircode>
+        <ircode verified="False" controlrating="0">
+          <id>19099</id>
+          <name>DASP</name>
+          <transmit>PULSE</transmit>
+          <repeatcount>5</repeatcount>
+          <delayafter>0</delayafter>
+          <pattern>0000 006d 0022 0002 0157 00ab 0016 0015 0016 0015 0016 003f 0016 0015 0016 0015 0016 0015 0016 0015 0016 0015 0016 003f 0016 003f 0016 0015 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 0015 0016 003f 0016 0015 0016 0015 0016 003f 0016 0015 0016 003f 0016 0015 0016 003f 0016 0015 0016 003f 0016 003f 0016 0015 0016 003f 0016 0015 0016 003f 0016 05f3 0156 0055 0016 0e4d</pattern>
+          <altpattern />
+        </ircode>
+        <ircode verified="False" controlrating="0">
+          <id>19098</id>
+          <name>COMPONENT 2</name>
+          <transmit>PULSE</transmit>
+          <repeatcount>5</repeatcount>
+          <delayafter>0</delayafter>
+          <pattern>0000 006d 0022 0002 0157 00ab 0016 0015 0016 0015 0016 003f 0016 0015 0016 0015 0016 0015 0016 0015 0016 0015 0016 003f 0016 003f 0016 0015 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 0015 0016 0015 0016 003f 0016 0015 0016 003f 0016 0015 0016 003f 0016 003f 0016 003f 0016 003f 0016 0015 0016 003f 0016 0015 0016 003f 0016 0015 0016 0015 0016 05f3 0156 0055 0016 0e4d</pattern>
+          <altpattern />
+        </ircode>
+        <ircode verified="False" controlrating="0">
+          <id>19097</id>
+          <name>COMPONENT 1, COMPONENT</name>
+          <transmit>PULSE</transmit>
+          <repeatcount>5</repeatcount>
+          <delayafter>0</delayafter>
+          <pattern>0000 006d 0022 0002 0157 00ab 0016 0015 0016 0015 0016 003f 0016 0015 0016 0015 0016 0015 0016 0015 0016 0015 0016 003f 0016 003f 0016 0015 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 0015 0016 003f 0016 0015 0016 0015 0016 0015 0016 0015 0016 0015 0016 0015 0016 003f 0016 0015 0016 05f3 0156 0055 0016 0e4d</pattern>
+          <altpattern />
+        </ircode>
+        <ircode verified="False" controlrating="0">
+          <id>19096</id>
+          <name>AUTO CONFIGURE</name>
+          <transmit>PULSE</transmit>
+          <repeatcount>5</repeatcount>
+          <delayafter>0</delayafter>
+          <pattern>0000 006d 0022 0002 0157 00ab 0016 0015 0016 0015 0016 003f 0016 0015 0016 0015 0016 0015 0016 0015 0016 0015 0016 003f 0016 003f 0016 0015 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 0015 0016 0015 0016 003f 0016 003f 0016 0015 0016 0015 0016 003f 0016 0015 0016 003f 0016 003f 0016 0015 0016 0015 0016 003f 0016 003f 0016 0015 0016 05f3 0156 0055 0016 0e4d</pattern>
+          <altpattern />
+        </ircode>
+        <ircode verified="False" controlrating="0">
+          <id>19095</id>
+          <name>ARROW RIGHT</name>
+          <transmit>PULSE</transmit>
+          <repeatcount>5</repeatcount>
+          <delayafter>0</delayafter>
+          <pattern>0000 006d 0022 0002 0157 00ab 0016 0015 0016 0015 0016 003f 0016 0015 0016 0015 0016 0015 0016 0015 0016 0015 0016 003f 0016 003f 0016 0015 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 0015 0016 003f 0016 0015 0016 0015 0016 0015 0016 0015 0016 0015 0016 0015 0016 003f 0016 0015 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 05f3 0156 0055 0016 0e4d</pattern>
+          <altpattern />
+        </ircode>
+        <ircode verified="False" controlrating="0">
+          <id>19094</id>
+          <name>ARROW DOWN</name>
+          <transmit>PULSE</transmit>
+          <repeatcount>5</repeatcount>
+          <delayafter>0</delayafter>
+          <pattern>0000 006d 0022 0002 0157 00ab 0016 0015 0016 0015 0016 003f 0016 0015 0016 0015 0016 0015 0016 0015 0016 0015 0016 003f 0016 003f 0016 0015 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 0015 0016 0015 0016 0015 0016 0015 0016 0015 0016 0015 0016 0015 0016 0015 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 05f3 0156 0055 0016 0e4d</pattern>
+          <altpattern />
+        </ircode>
+        <ircode verified="False" controlrating="0">
+          <id>19093</id>
+          <name>ANT/CABLE , ANALOG TV</name>
+          <transmit>PULSE</transmit>
+          <repeatcount>5</repeatcount>
+          <delayafter>0</delayafter>
+          <pattern>0000 006d 0022 0002 0157 00ab 0016 0015 0016 0015 0016 003f 0016 0015 0016 0015 0016 0015 0016 0015 0016 0015 0016 003f 0016 003f 0016 0015 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 0015 0016 003f 0016 003f 0016 0015 0016 003f 0016 0015 0016 003f 0016 003f 0016 003f 0016 0015 0016 0015 0016 003f 0016 0015 0016 003f 0016 0015 0016 0015 0016 05f3 0156 0055 0016 0e4d</pattern>
+          <altpattern />
+        </ircode>
+        <ircode verified="False" controlrating="0">
+          <id>19092</id>
+          <name>16:9</name>
+          <transmit>PULSE</transmit>
+          <repeatcount>5</repeatcount>
+          <delayafter>0</delayafter>
+          <pattern>0000 006d 0022 0002 0157 00ab 0016 0015 0016 0015 0016 003f 0016 0015 0016 0015 0016 0015 0016 0015 0016 0015 0016 003f 0016 003f 0016 0015 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 0015 0016 003f 0016 003f 0016 003f 0016 0015 0016 0015 0016 0015 0016 0015 0016 003f 0016 0015 0016 0015 0016 0015 0016 003f 0016 05f3 0156 0055 0016 0e4d</pattern>
+          <altpattern />
+        </ircode>
+        <ircode verified="False" controlrating="0">
+          <id>19091</id>
+          <name>4:3</name>
+          <transmit>PULSE</transmit>
+          <repeatcount>5</repeatcount>
+          <delayafter>0</delayafter>
+          <pattern>0000 006d 0022 0002 0157 00ab 0016 0015 0016 0015 0016 003f 0016 0015 0016 0015 0016 0015 0016 0015 0016 0015 0016 003f 0016 003f 0016 0015 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 0015 0016 003f 0016 003f 0016 0015 0016 003f 0016 003f 0016 003f 0016 0015 0016 003f 0016 0015 0016 0015 0016 003f 0016 0015 0016 0015 0016 0015 0016 003f 0016 05f3 0156 0055 0016 0e4d</pattern>
+          <altpattern />
+        </ircode>
+        <ircode verified="False" controlrating="0">
+          <id>51000</id>
+          <name>DVI-PC</name>
+          <transmit>PULSE</transmit>
+          <repeatcount>5</repeatcount>
+          <delayafter>0</delayafter>
+          <pattern>0000 0067 0022 0002 0156 00ab 0016 0016 0016 0016 0016 003f 0016 0016 0016 0016 0016 0016 0016 0016 0016 0016 0016 003f 0016 003f 0016 0016 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 0016 0016 0016 0016 0016 0016 003f 0016 003f 0016 0016 0016 0016 0016 0016 0016 003f 0016 003f 0016 003f 0016 0016 0016 0016 0016 0593 0160 0058 0016 0dc0</pattern>
+          <altpattern />
+        </ircode>
+        <ircode verified="False" controlrating="0">
+          <id>50999</id>
+          <name>VIDEO 5</name>
+          <transmit>PULSE</transmit>
+          <repeatcount>5</repeatcount>
+          <delayafter>0</delayafter>
+          <pattern>0000 0067 0022 0002 0156 00ab 0016 0016 0016 0016 0016 003f 0016 0016 0016 0016 0016 0016 0016 0016 0016 0016 0016 003f 0016 003f 0016 0016 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 0016 0016 0016 0016 003f 0016 003f 0016 0016 0016 0016 0016 0016 0016 0016 0016 003f 0016 003f 0016 0016 0016 0016 0016 0593 0160 0058 0016 0dc0</pattern>
+          <altpattern />
+        </ircode>
+        <ircode verified="False" controlrating="0">
+          <id>50998</id>
+          <name>COMPONENT 3</name>
+          <transmit>PULSE</transmit>
+          <repeatcount>5</repeatcount>
+          <delayafter>0</delayafter>
+          <pattern>0000 0067 0022 0002 0156 00ab 0016 0016 0016 0016 0016 003f 0016 0016 0016 0016 0016 0016 0016 0016 0016 0016 0016 003f 0016 003f 0016 0016 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 0016 0016 0016 0016 003f 0016 003f 0016 0016 0016 003f 0016 003f 0016 0016 0016 003f 0016 003f 0016 0016 0016 0016 0016 003f 0016 0016 0016 0016 0016 0593 0160 0058 0016 0dc0</pattern>
+          <altpattern />
+        </ircode>
+        <ircode verified="False" controlrating="0">
+          <id>50997</id>
+          <name>HDMI4</name>
+          <transmit>PULSE</transmit>
+          <repeatcount>5</repeatcount>
+          <delayafter>0</delayafter>
+          <pattern>0000 0067 0022 0002 0156 00ab 0016 0016 0016 0016 0016 003f 0016 0016 0016 0016 0016 0016 0016 0016 0016 0016 0016 003f 0016 003f 0016 0016 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 0016 0016 003f 0016 0016 0016 003f 0016 003f 0016 0016 0016 003f 0016 003f 0016 003f 0016 0016 0016 003f 0016 0016 0016 0016 0016 003f 0016 0016 0016 0016 0016 0593 0160 0058 0016 0dc0</pattern>
+          <altpattern />
+        </ircode>
+        <ircode verified="False" controlrating="0">
+          <id>19126</id>
+          <name>S-VIDEO 2</name>
+          <transmit>PULSE</transmit>
+          <repeatcount>5</repeatcount>
+          <delayafter>0</delayafter>
+          <pattern>0000 006d 0022 0002 0157 00ab 0016 0015 0016 0015 0016 003f 0016 0015 0016 0015 0016 0015 0016 0015 0016 0015 0016 003f 0016 003f 0016 0015 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 0015 0016 0015 0016 003f 0016 0015 0016 003f 0016 003f 0016 0015 0016 0015 0016 003f 0016 003f 0016 0015 0016 003f 0016 0015 0016 0015 0016 05f3 0156 0055 0016 0e4d</pattern>
+          <altpattern />
+        </ircode>
+        <ircode verified="False" controlrating="0">
+          <id>15</id>
+          <name>NUMBER_5</name>
+          <transmit>PULSE</transmit>
+          <repeatcount>5</repeatcount>
+          <delayafter>0</delayafter>
+          <pattern>0000 006d 0022 0002 0157 00ab 0016 0015 0016 0015 0016 003f 0016 0015 0016 0015 0016 0015 0016 0015 0016 0015 0016 003f 0016 003f 0016 0015 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 0015 0016 003f 0016 0015 0016 003f 0016 0015 0016 0015 0016 0015 0016 0015 0016 003f 0016 0015 0016 003f 0016 0015 0016 003f 0016 003f 0016 003f 0016 05f3 0156 0055 0016 0e4d</pattern>
+          <altpattern />
+        </ircode>
+        <ircode verified="False" controlrating="0">
+          <id>19132</id>
+          <name>VIDEO 3 , FRONT VIDEO , (WITH 2 VIDEOS)</name>
+          <transmit>PULSE</transmit>
+          <repeatcount>5</repeatcount>
+          <delayafter>0</delayafter>
+          <pattern>0000 006d 0022 0002 0157 00ab 0016 0015 0016 0015 0016 003f 0016 0015 0016 0015 0016 0015 0016 0015 0016 0015 0016 003f 0016 003f 0016 0015 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 0015 0016 0015 0016 0015 0016 003f 0016 0015 0016 003f 0016 003f 0016 0015 0016 003f 0016 003f 0016 003f 0016 0015 0016 003f 0016 0015 0016 0015 0016 05f3 0156 0055 0016 0e4d</pattern>
+          <altpattern />
+        </ircode>
+        <ircode verified="False" controlrating="0">
+          <id>13</id>
+          <name>NUMBER_3</name>
+          <transmit>PULSE</transmit>
+          <repeatcount>5</repeatcount>
+          <delayafter>0</delayafter>
+          <pattern>0000 006d 0022 0002 0157 00ab 0016 0015 0016 0015 0016 003f 0016 0015 0016 0015 0016 0015 0016 0015 0016 0015 0016 003f 0016 003f 0016 0015 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 0015 0016 0015 0016 003f 0016 0015 0016 0015 0016 0015 0016 0015 0016 0015 0016 003f 0016 003f 0016 0015 0016 003f 0016 003f 0016 003f 0016 05f3 0156 0055 0016 0e4d</pattern>
+          <altpattern />
+        </ircode>
+        <ircode verified="False" controlrating="0">
+          <id>11</id>
+          <name>NUMBER_1</name>
+          <transmit>PULSE</transmit>
+          <repeatcount>5</repeatcount>
+          <delayafter>0</delayafter>
+          <pattern>0000 006d 0022 0002 0157 00ab 0016 0015 0016 0015 0016 003f 0016 0015 0016 0015 0016 0015 0016 0015 0016 0015 0016 003f 0016 003f 0016 0015 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 0015 0016 0015 0016 0015 0016 003f 0016 0015 0016 0015 0016 0015 0016 0015 0016 003f 0016 003f 0016 003f 0016 0015 0016 003f 0016 003f 0016 003f 0016 05f3 0156 0055 0016 0e4d</pattern>
+          <altpattern />
+        </ircode>
+        <ircode verified="False" controlrating="0">
+          <id>19114</id>
+          <name>PIP ARC</name>
+          <transmit>PULSE</transmit>
+          <repeatcount>5</repeatcount>
+          <delayafter>0</delayafter>
+          <pattern>0000 006d 0022 0002 0157 00ab 0016 0015 0016 0015 0016 003f 0016 0015 0016 0015 0016 0015 0016 0015 0016 0015 0016 003f 0016 003f 0016 0015 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 0015 0016 0015 0016 003f 0016 0015 0016 0015 0016 003f 0016 003f 0016 0015 0016 003f 0016 003f 0016 0015 0016 003f 0016 003f 0016 0015 0016 0015 0016 003f 0016 05f3 0156 0055 0016 0e4d</pattern>
+          <altpattern />
+        </ircode>
+        <ircode verified="False" controlrating="0">
+          <id>139</id>
+          <name>MUTE_TOGGLE</name>
+          <transmit>PULSE</transmit>
+          <repeatcount>5</repeatcount>
+          <delayafter>0</delayafter>
+          <pattern>0000 006d 0022 0002 0157 00ab 0016 0015 0016 0015 0016 003f 0016 0015 0016 0015 0016 0015 0016 0015 0016 0015 0016 003f 0016 003f 0016 0015 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 0015 0016 0015 0016 003f 0016 0015 0016 0015 0016 0015 0016 0015 0016 0015 0016 003f 0016 003f 0016 0015 0016 003f 0016 003f 0016 003f 0016 003f 0016 05f3 0156 0055 0016 0e4d</pattern>
+          <altpattern />
+        </ircode>
+        <ircode verified="False" controlrating="0">
+          <id>124</id>
+          <name>GUIDE</name>
+          <transmit>PULSE</transmit>
+          <repeatcount>5</repeatcount>
+          <delayafter>0</delayafter>
+          <pattern>0000 0067 0022 0002 0156 00ab 0016 0016 0016 0016 0016 003f 0016 0016 0016 0016 0016 0016 0016 0016 0016 0016 0016 003f 0016 003f 0016 0016 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 0016 0016 0016 0016 003f 0016 0016 0016 003f 0016 0016 0016 003f 0016 0016 0016 003f 0016 003f 0016 0016 0016 003f 0016 0016 0016 003f 0016 0016 0016 0593 0160 0058 0016 0dc0</pattern>
+          <altpattern />
+        </ircode>
+        <ircode verified="False" controlrating="0">
+          <id>122</id>
+          <name>RECALL</name>
+          <transmit>PULSE</transmit>
+          <repeatcount>1</repeatcount>
+          <delayafter>0</delayafter>
+          <pattern>0000 006d 0000 0024 0157 00ad 0015 0016 0015 0016 0015 0041 0015 0016 0015 0016 0015 0016 0015 0016 0015 0016 0014 0042 0015 0041 0015 0016 0014 0042 0015 0041 0015 0041 0015 0041 0015 0041 0015 0016 0014 0042 0015 0016 0015 0041 0014 0042 0015 0016 0015 0016 0015 0016 0015 0041 0015 0016 0015 0041 0015 0016 0014 0017 0015 0041 0015 0041 0014 0042 0015 0620 0157 0058 0014 0620</pattern>
+          <altpattern />
+        </ircode>
+        <ircode verified="False" controlrating="0">
+          <id>30</id>
+          <name>INPUT_TOGGLE</name>
+          <transmit>PULSE</transmit>
+          <repeatcount>5</repeatcount>
+          <delayafter>500</delayafter>
+          <pattern>0000 006d 0022 0002 0157 00ab 0016 0015 0016 0015 0016 003f 0016 0015 0016 0015 0016 0015 0016 0015 0016 0015 0016 003f 0016 003f 0016 0015 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 0015 0016 003f 0016 0015 0016 0015 0016 0015 0016 0015 0016 0015 0016 0015 0016 003f 0016 0015 0016 003f 0016 003f 0016 003f 0016 003f 0016 05f3 0156 0055 0016 0e4d</pattern>
+          <altpattern />
+        </ircode>
+        <ircode verified="False" controlrating="0">
+          <id>120</id>
+          <name>INFO</name>
+          <transmit>PULSE</transmit>
+          <repeatcount>1</repeatcount>
+          <delayafter>0</delayafter>
+          <pattern>0000 006d 0000 0024 0157 00ad 0015 0017 0014 0017 0015 0041 0015 0016 0015 0016 0015 0016 0014 0017 0015 0016 0014 0042 0015 0041 0015 0017 0015 0041 0015 0041 0014 0042 0015 0041 0015 0041 0015 0016 0015 0041 0015 0016 0015 0041 0015 0016 0015 0042 0015 0016 0015 0041 0015 0041 0015 0016 0015 0041 0014 0017 0015 0041 0015 0016 0015 0041 0015 0016 0014 0620 0157 0058 0014 0620</pattern>
+          <altpattern />
+        </ircode>
+        <ircode verified="False" controlrating="0">
+          <id>116</id>
+          <name>RIGHT</name>
+          <transmit>PULSE</transmit>
+          <repeatcount>1</repeatcount>
+          <delayafter>0</delayafter>
+          <pattern>0000 006d 0000 0024 0158 00ad 0015 0016 0015 0016 0015 0041 0015 0016 0015 0016 0015 0016 0015 0016 0015 0016 0015 0041 0015 0041 0015 0016 0015 0041 0015 0041 0015 0041 0015 0041 0015 0041 0015 0016 0015 0041 0015 0041 0015 0016 0015 0016 0015 0016 0015 0016 0015 0016 0015 0041 0015 0016 0015 0016 0015 0041 0015 0041 0015 0041 0015 0041 0015 0041 0015 061f 0158 0057 0015 061f</pattern>
+          <altpattern />
+        </ircode>
+        <ircode verified="False" controlrating="0">
+          <id>115</id>
+          <name>LEFT</name>
+          <transmit>PULSE</transmit>
+          <repeatcount>1</repeatcount>
+          <delayafter>0</delayafter>
+          <pattern>0000 006d 0000 0024 0157 00ad 0015 0016 0014 0017 0015 0041 0015 0016 0015 0016 0015 0016 0014 0017 0015 0016 0014 0042 0015 0042 0015 0017 0014 0042 0015 0041 0015 0041 0015 0041 0015 0042 0015 0041 0015 0041 0015 0041 0015 0017 0015 0016 0015 0016 0015 0016 0015 0016 0015 0016 0015 0016 0015 0016 0015 0041 0015 0042 0015 0041 0015 0041 0015 0041 0015 061f 0157 0057 0015 061f</pattern>
+          <altpattern />
+        </ircode>
+        <ircode verified="False" controlrating="0">
+          <id>114</id>
+          <name>DOWN</name>
+          <transmit>PULSE</transmit>
+          <repeatcount>1</repeatcount>
+          <delayafter>0</delayafter>
+          <pattern>0000 0067 0022 0002 0156 00ab 0016 0016 0016 0016 0016 003f 0016 0016 0016 0016 0016 0016 0016 0016 0016 0016 0016 003f 0016 003f 0016 0016 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 0016 0016 0016 0016 0016 0016 0016 0016 0016 0016 003f 0016 0016 0016 0016 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 0016 0016 003f 0016 0593 0160 0058 0016 0dc0</pattern>
+          <altpattern />
+        </ircode>
+        <ircode verified="False" controlrating="0">
+          <id>113</id>
+          <name>UP</name>
+          <transmit>PULSE</transmit>
+          <repeatcount>1</repeatcount>
+          <delayafter>0</delayafter>
+          <pattern>0000 0067 0022 0002 0156 00ab 0016 0016 0016 0016 0016 003f 0016 0016 0016 0016 0016 0016 0016 0016 0016 0016 0016 003f 0016 003f 0016 0016 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 0016 0016 0016 0016 0016 0016 0016 0016 0016 0016 0016 0016 003f 0016 0016 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 0016 0016 003f 0016 0593 0160 0058 0016 0dc0</pattern>
+          <altpattern />
+        </ircode>
+        <ircode verified="False" controlrating="0">
+          <id>112</id>
+          <name>TV_VIDEO</name>
+          <transmit>PULSE</transmit>
+          <repeatcount>5</repeatcount>
+          <delayafter>0</delayafter>
+          <pattern>0000 006d 0022 0002 0157 00ab 0016 0015 0016 0015 0016 003f 0016 0015 0016 0015 0016 0015 0016 0015 0016 0015 0016 003f 0016 003f 0016 0015 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 0015 0016 003f 0016 0015 0016 0015 0016 0015 0016 0015 0016 0015 0016 0015 0016 003f 0016 0015 0016 003f 0016 003f 0016 003f 0016 003f 0016 05f3 0156 0055 0016 0e4d</pattern>
+          <altpattern />
+        </ircode>
+        <ircode verified="False" controlrating="0">
+          <id>111</id>
+          <name>ENTER</name>
+          <transmit>PULSE</transmit>
+          <repeatcount>1</repeatcount>
+          <delayafter>0</delayafter>
+          <pattern>0000 006d 0000 0024 0158 00ad 0015 0016 0015 0016 0015 0041 0015 0016 0015 0016 0015 0016 0015 0016 0015 0016 0015 0041 0015 0041 0015 0016 0015 0041 0015 0041 0015 0041 0015 0041 0015 0041 0015 0016 0015 0016 0015 0042 0015 0016 0015 0016 0015 0016 0015 0041 0015 0016 0015 0041 0015 0041 0015 0016 0015 0041 0015 0041 0015 0042 0015 0016 0015 0041 0015 061e 0158 0057 0015 061e</pattern>
+          <altpattern />
+        </ircode>
+        <ircode verified="False" controlrating="0">
+          <id>108</id>
+          <name>MENU</name>
+          <transmit>PULSE</transmit>
+          <repeatcount>5</repeatcount>
+          <delayafter>0</delayafter>
+          <pattern>0000 006d 0022 0002 0157 00ab 0016 0015 0016 0015 0016 003f 0016 0015 0016 0015 0016 0015 0016 0015 0016 0015 0016 003f 0016 003f 0016 0015 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 0015 0016 0015 0016 0015 0016 0015 0016 003f 0016 0015 0016 0015 0016 0015 0016 003f 0016 003f 0016 003f 0016 003f 0016 0015 0016 003f 0016 05f3 0156 0055 0016 0e4d</pattern>
+          <altpattern />
+        </ircode>
+        <ircode verified="False" controlrating="0">
+          <id>107</id>
+          <name>VOLUME_DOWN</name>
+          <transmit>PULSE</transmit>
+          <repeatcount>5</repeatcount>
+          <delayafter>0</delayafter>
+          <pattern>0000 006d 0022 0002 0157 00ab 0016 0015 0016 0015 0016 003f 0016 0015 0016 0015 0016 0015 0016 0015 0016 0015 0016 003f 0016 003f 0016 0015 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 0015 0016 0015 0016 0015 0016 0015 0016 0015 0016 0015 0016 0015 0016 0015 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 05f3 0156 0055 0016 0e4d</pattern>
+          <altpattern />
+        </ircode>
+        <ircode verified="False" controlrating="0">
+          <id>106</id>
+          <name>VOLUME_UP</name>
+          <transmit>PULSE</transmit>
+          <repeatcount>5</repeatcount>
+          <delayafter>0</delayafter>
+          <pattern>0000 006d 0022 0002 0157 00ab 0016 0015 0016 0015 0016 003f 0016 0015 0016 0015 0016 0015 0016 0015 0016 0015 0016 003f 0016 003f 0016 0015 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 0015 0016 003f 0016 0015 0016 0015 0016 0015 0016 0015 0016 0015 0016 0015 0016 003f 0016 0015 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 05f3 0156 0055 0016 0e4d</pattern>
+          <altpattern />
+        </ircode>
+        <ircode verified="False" controlrating="0">
+          <id>105</id>
+          <name>CHANNEL_DOWN</name>
+          <transmit>PULSE</transmit>
+          <repeatcount>1</repeatcount>
+          <delayafter>0</delayafter>
+          <pattern>0000 006d 0022 0002 0154 00a7 0015 0014 0016 0014 0015 0040 0015 0015 0015 0014 0015 0015 0015 0015 0015 0015 0015 003f 0015 0040 0015 0015 0015 003f 0015 0040 0015 0040 0015 003f 0015 0040 0015 003f 0015 0015 0015 0015 0015 0015 0015 0015 0015 0014 0015 0015 0015 0015 0015 0015 0015 003f 0015 0040 0015 0040 0015 003f 0015 0040 0015 003f 0015 0040 0015 0611 0153 0055 0015 0e4a</pattern>
+          <altpattern />
+        </ircode>
+        <ircode verified="False" controlrating="0">
+          <id>104</id>
+          <name>CHANNEL_UP</name>
+          <transmit>PULSE</transmit>
+          <repeatcount>1</repeatcount>
+          <delayafter>0</delayafter>
+          <pattern>0000 006d 0022 0002 0153 00a8 0014 0015 0014 0016 0014 0041 0014 0016 0014 0015 0014 0016 0014 0016 0014 0016 0014 0040 0014 0041 0014 0016 0014 0040 0014 0041 0014 0041 0014 0040 0014 0041 0014 0016 0014 0015 0014 0016 0014 0016 0014 0016 0014 0016 0013 0016 0014 0016 0014 0041 0014 0040 0014 0041 0014 0041 0013 0041 0014 0041 0014 0040 0014 0041 0014 0612 0153 0054 0016 0e4a</pattern>
+          <altpattern />
+        </ircode>
+        <ircode verified="False" controlrating="0">
+          <id>103</id>
+          <name>POWER_TOGGLE</name>
+          <transmit>PULSE</transmit>
+          <repeatcount>5</repeatcount>
+          <delayafter>0</delayafter>
+          <pattern>0000 006d 0022 0002 0154 00ab 0015 0015 0015 0015 0015 0041 0015 0016 0015 0016 0015 0015 0015 0015 0015 0015 0015 0040 0015 0040 0015 0015 0015 0041 0015 0041 0015 0040 0015 0040 0015 0040 0015 0015 0015 0015 0015 0015 0015 0041 0015 0016 0015 0016 0015 0015 0015 0016 0015 0041 0015 0041 0015 0040 0015 0015 0015 0040 0015 0041 0015 0041 0015 0040 0015 0612 0154 0056 0015 0e5d</pattern>
+          <altpattern />
+        </ircode>
+        <ircode verified="False" controlrating="0">
+          <id>102</id>
+          <name>POWER_OFF</name>
+          <transmit>PULSE</transmit>
+          <repeatcount>5</repeatcount>
+          <delayafter>0</delayafter>
+          <pattern>0000 006d 0022 0002 0157 00ab 0016 0015 0016 0015 0016 003f 0016 0015 0016 0015 0016 0015 0016 0015 0016 0015 0016 003f 0016 003f 0016 0015 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 0015 0016 003f 0016 0015 0016 0015 0016 0015 0016 003f 0016 003f 0016 0015 0016 003f 0016 0015 0016 003f 0016 003f 0016 003f 0016 0015 0016 0015 0016 05f3 0156 0055 0016 0e4d</pattern>
+          <altpattern />
+        </ircode>
+        <ircode verified="False" controlrating="0">
+          <id>101</id>
+          <name>POWER_ON</name>
+          <transmit>PULSE</transmit>
+          <repeatcount>5</repeatcount>
+          <delayafter>0</delayafter>
+          <pattern>0000 006d 0022 0002 0157 00ab 0016 0015 0016 0015 0016 003f 0016 0015 0016 0015 0016 0015 0016 0015 0016 0015 0016 003f 0016 003f 0016 0015 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 0015 0016 0015 0016 003f 0016 0015 0016 0015 0016 0015 0016 003f 0016 003f 0016 003f 0016 003f 0016 0015 0016 003f 0016 003f 0016 003f 0016 0015 0016 0015 0016 05f3 0156 0055 0016 0e4d</pattern>
+          <altpattern />
+        </ircode>
+        <ircode verified="False" controlrating="0">
+          <id>14</id>
+          <name>NUMBER_4</name>
+          <transmit>PULSE</transmit>
+          <repeatcount>5</repeatcount>
+          <delayafter>0</delayafter>
+          <pattern>0000 006d 0022 0002 0157 00ab 0016 0015 0016 0015 0016 003f 0016 0015 0016 0015 0016 0015 0016 0015 0016 0015 0016 003f 0016 003f 0016 0015 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 0015 0016 0015 0016 003f 0016 0015 0016 003f 0016 0015 0016 0015 0016 0015 0016 003f 0016 003f 0016 0015 0016 003f 0016 0015 0016 003f 0016 003f 0016 003f 0016 05f3 0156 0055 0016 0e4d</pattern>
+          <altpattern />
+        </ircode>
+        <ircode verified="False" controlrating="0">
+          <id>19133</id>
+          <name>VIDEO 4 , FRONT VIDEO , (WITH 3 VIDEOS)</name>
+          <transmit>PULSE</transmit>
+          <repeatcount>5</repeatcount>
+          <delayafter>0</delayafter>
+          <pattern>0000 006d 0022 0002 0157 00ab 0016 0015 0016 0015 0016 003f 0016 0015 0016 0015 0016 0015 0016 0015 0016 0015 0016 003f 0016 003f 0016 0015 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 0015 0016 003f 0016 0015 0016 0015 0016 003f 0016 0015 0016 003f 0016 003f 0016 003f 0016 0015 0016 003f 0016 003f 0016 0015 0016 003f 0016 0015 0016 0015 0016 05f3 0156 0055 0016 0e4d</pattern>
+          <altpattern />
+        </ircode>
+        <ircode verified="False" controlrating="0">
+          <id>34961</id>
+          <name>Rec List</name>
+          <transmit>PULSE</transmit>
+          <repeatcount>5</repeatcount>
+          <delayafter>0</delayafter>
+          <pattern>0000 0067 0022 0002 0156 00ab 0016 0016 0016 0016 0016 003f 0016 0016 0016 0016 0016 0016 0016 0016 0016 0016 0016 003f 0016 003f 0016 0016 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 0016 0016 0016 0016 0016 0016 0016 0016 003f 0016 0016 0016 0016 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 0016 0016 003f 0016 003f 0016 0016 0016 0593 0160 0058 0016 0dc0</pattern>
+          <altpattern />
+        </ircode>
+        <ircode verified="False" controlrating="0">
+          <id>34960</id>
+          <name>X Studio Pro</name>
+          <transmit>PULSE</transmit>
+          <repeatcount>5</repeatcount>
+          <delayafter>0</delayafter>
+          <pattern>0000 0067 0022 0002 0156 00ab 0016 0016 0016 0016 0016 003f 0016 0016 0016 0016 0016 0016 0016 0016 0016 0016 0016 003f 0016 003f 0016 0016 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 0016 0016 0016 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 0016 0016 003f 0016 003f 0016 0016 0016 0016 0016 0016 0016 0016 0016 0016 0016 003f 0016 0593 0160 0058 0016 0dc0</pattern>
+          <altpattern />
+        </ircode>
+        <ircode verified="False" controlrating="0">
+          <id>34959</id>
+          <name>Auto Demo</name>
+          <transmit>PULSE</transmit>
+          <repeatcount>5</repeatcount>
+          <delayafter>0</delayafter>
+          <pattern>0000 0067 0022 0002 0156 00ab 0016 0016 0016 0016 0016 003f 0016 0016 0016 0016 0016 0016 0016 0016 0016 0016 0016 003f 0016 003f 0016 0016 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 0016 0016 0016 0016 0016 0016 0016 0016 0016 0016 0016 0016 0016 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 0016 0016 0593 0160 0058 0016 0dc0</pattern>
+          <altpattern />
+        </ircode>
+        <ircode verified="False" controlrating="0">
+          <id>34958</id>
+          <name>MC Eject</name>
+          <transmit>PULSE</transmit>
+          <repeatcount>5</repeatcount>
+          <delayafter>0</delayafter>
+          <pattern>0000 0067 0022 0002 0156 00ab 0016 0016 0016 0016 0016 003f 0016 0016 0016 0016 0016 0016 0016 0016 0016 0016 0016 003f 0016 003f 0016 0016 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 0016 0016 003f 0016 0016 0016 003f 0016 0016 0016 0016 0016 003f 0016 003f 0016 003f 0016 0016 0016 003f 0016 0016 0016 003f 0016 003f 0016 0016 0016 0016 0016 0593 0160 0058 0016 0dc0</pattern>
+          <altpattern />
+        </ircode>
+        <ircode verified="False" controlrating="0">
+          <id>34957</id>
+          <name>APM</name>
+          <transmit>PULSE</transmit>
+          <repeatcount>5</repeatcount>
+          <delayafter>0</delayafter>
+          <pattern>0000 0067 0022 0002 0156 00ab 0016 0016 0016 0016 0016 003f 0016 0016 0016 0016 0016 0016 0016 0016 0016 0016 0016 003f 0016 003f 0016 0016 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 0016 0016 003f 0016 0016 0016 0016 0016 003f 0016 0016 0016 0016 0016 003f 0016 003f 0016 0016 0016 003f 0016 003f 0016 0016 0016 003f 0016 003f 0016 0016 0016 0593 0160 0058 0016 0dc0</pattern>
+          <altpattern />
+        </ircode>
+        <ircode verified="False" controlrating="0">
+          <id>19131</id>
+          <name>VIDEO 2</name>
+          <transmit>PULSE</transmit>
+          <repeatcount>5</repeatcount>
+          <delayafter>0</delayafter>
+          <pattern>0000 006d 0022 0002 0157 00ab 0016 0015 0016 0015 0016 003f 0016 0015 0016 0015 0016 0015 0016 0015 0016 0015 0016 003f 0016 003f 0016 0015 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 0015 0016 0015 0016 0015 0016 0015 0016 003f 0016 0015 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 0015 0016 003f 0016 0015 0016 0015 0016 05f3 0156 0055 0016 0e4d</pattern>
+          <altpattern />
+        </ircode>
+        <ircode verified="False" controlrating="0">
+          <id>18</id>
+          <name>NUMBER_8</name>
+          <transmit>PULSE</transmit>
+          <repeatcount>5</repeatcount>
+          <delayafter>0</delayafter>
+          <pattern>0000 006d 0022 0002 0157 00ab 0016 0015 0016 0015 0016 003f 0016 0015 0016 0015 0016 0015 0016 0015 0016 0015 0016 003f 0016 003f 0016 0015 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 0015 0016 0015 0016 0015 0016 003f 0016 003f 0016 0015 0016 0015 0016 0015 0016 003f 0016 003f 0016 003f 0016 0015 0016 0015 0016 003f 0016 003f 0016 003f 0016 05f3 0156 0055 0016 0e4d</pattern>
+          <altpattern />
+        </ircode>
+        <ircode verified="False" controlrating="0">
+          <id>19125</id>
+          <name>S-VIDEO , S-VIDEO 1</name>
+          <transmit>PULSE</transmit>
+          <repeatcount>5</repeatcount>
+          <delayafter>0</delayafter>
+          <pattern>0000 006d 0022 0002 0157 00ab 0016 0015 0016 0015 0016 003f 0016 0015 0016 0015 0016 0015 0016 0015 0016 0015 0016 003f 0016 003f 0016 0015 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 0015 0016 0015 0016 0015 0016 003f 0016 0015 0016 003f 0016 0015 0016 0015 0016 003f 0016 003f 0016 003f 0016 0015 0016 003f 0016 0015 0016 003f 0016 05f3 0156 0055 0016 0e4d</pattern>
+          <altpattern />
+        </ircode>
+        <ircode verified="False" controlrating="0">
+          <id>28426</id>
+          <name>HDMI2</name>
+          <transmit>PULSE</transmit>
+          <repeatcount>5</repeatcount>
+          <delayafter>0</delayafter>
+          <pattern>0000 0067 0022 0002 0156 00ab 0016 0016 0016 0016 0016 003f 0016 0016 0016 0016 0016 0016 0016 0016 0016 0016 0016 003f 0016 003f 0016 0016 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 0016 0016 0016 0016 003f 0016 003f 0016 0016 0016 0016 0016 003f 0016 003f 0016 003f 0016 003f 0016 0016 0016 0016 0016 003f 0016 003f 0016 0016 0016 0016 0016 0593 0160 0058 0016 0dc0</pattern>
+          <altpattern />
+        </ircode>
+        <ircode verified="False" controlrating="0">
+          <id>28425</id>
+          <name>HDMI1, DVI-PC</name>
+          <transmit>PULSE</transmit>
+          <repeatcount>5</repeatcount>
+          <delayafter>0</delayafter>
+          <pattern>0000 0067 0022 0002 0156 00ab 0016 0016 0016 0016 0016 003f 0016 0016 0016 0016 0016 0016 0016 0016 0016 0016 0016 003f 0016 003f 0016 0016 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 0016 0016 003f 0016 003f 0016 003f 0016 0016 0016 0016 0016 003f 0016 003f 0016 003f 0016 0016 0016 0016 0016 0016 0016 003f 0016 003f 0016 0016 0016 0016 0016 0593 0160 0058 0016 0dc0</pattern>
+          <altpattern />
+        </ircode>
+        <ircode verified="False" controlrating="0">
+          <id>12</id>
+          <name>NUMBER_2</name>
+          <transmit>PULSE</transmit>
+          <repeatcount>5</repeatcount>
+          <delayafter>0</delayafter>
+          <pattern>0000 006d 0022 0002 0157 00ab 0016 0015 0016 0015 0016 003f 0016 0015 0016 0015 0016 0015 0016 0015 0016 0015 0016 003f 0016 003f 0016 0015 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 0015 0016 003f 0016 0015 0016 0015 0016 003f 0016 0015 0016 0015 0016 0015 0016 003f 0016 0015 0016 003f 0016 003f 0016 0015 0016 003f 0016 003f 0016 003f 0016 05f3 0156 0055 0016 0e4d</pattern>
+          <altpattern />
+        </ircode>
+        <ircode verified="False" controlrating="0">
+          <id>19119</id>
+          <name>RGB2-DVI, RGB-DVI, PC, RGB-PC, DVI, DVI-DTV</name>
+          <transmit>PULSE</transmit>
+          <repeatcount>5</repeatcount>
+          <delayafter>0</delayafter>
+          <pattern>0000 006d 0022 0002 0157 00ab 0016 0015 0016 0015 0016 003f 0016 0015 0016 0015 0016 0015 0016 0015 0016 0015 0016 003f 0016 003f 0016 0015 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 0015 0016 003f 0016 003f 0016 0015 0016 0015 0016 0015 0016 003f 0016 003f 0016 003f 0016 0015 0016 0015 0016 003f 0016 003f 0016 003f 0016 0015 0016 0015 0016 05f3 0156 0055 0016 0e4d</pattern>
+          <altpattern />
+        </ircode>
+        <ircode verified="False" controlrating="0">
+          <id>19140</id>
+          <name>ZOOM +</name>
+          <transmit>PULSE</transmit>
+          <repeatcount>5</repeatcount>
+          <delayafter>0</delayafter>
+          <pattern>0000 006d 0022 0002 0157 00ab 0016 0015 0016 0015 0016 003f 0016 0015 0016 0015 0016 0015 0016 0015 0016 0015 0016 003f 0016 003f 0016 0015 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 0015 0016 0015 0016 0015 0016 0015 0016 0015 0016 0015 0016 003f 0016 0015 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 0015 0016 003f 0016 05f3 0156 0055 0016 0e4d</pattern>
+          <altpattern />
+        </ircode>
+        <ircode verified="False" controlrating="0">
+          <id>19139</id>
+          <name>ZOOM , ZOOM 1</name>
+          <transmit>PULSE</transmit>
+          <repeatcount>5</repeatcount>
+          <delayafter>0</delayafter>
+          <pattern>0000 006d 0022 0002 0157 00ab 0016 0015 0016 0015 0016 003f 0016 0015 0016 0015 0016 0015 0016 0015 0016 0015 0016 003f 0016 003f 0016 0015 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 0015 0016 003f 0016 0015 0016 003f 0016 0015 0016 0015 0016 0015 0016 0015 0016 003f 0016 0015 0016 003f 0016 0015 0016 05f3 0156 0055 0016 0e4d</pattern>
+          <altpattern />
+        </ircode>
+        <ircode verified="False" controlrating="0">
+          <id>19138</id>
+          <name>ZOOM -</name>
+          <transmit>PULSE</transmit>
+          <repeatcount>5</repeatcount>
+          <delayafter>0</delayafter>
+          <pattern>0000 006d 0022 0002 0157 00ab 0016 0015 0016 0015 0016 003f 0016 0015 0016 0015 0016 0015 0016 0015 0016 0015 0016 003f 0016 003f 0016 0015 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 0015 0016 0015 0016 0015 0016 0015 0016 0015 0016 003f 0016 0015 0016 0015 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 0015 0016 003f 0016 05f3 0156 0055 0016 0e4d</pattern>
+          <altpattern />
+        </ircode>
+        <ircode verified="False" controlrating="0">
+          <id>19137</id>
+          <name>WINDOW SIZE</name>
+          <transmit>PULSE</transmit>
+          <repeatcount>5</repeatcount>
+          <delayafter>0</delayafter>
+          <pattern>0000 006d 0022 0002 0157 00ab 0016 0015 0016 0015 0016 003f 0016 0015 0016 0015 0016 0015 0016 0015 0016 0015 0016 003f 0016 003f 0016 0015 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 0015 0016 0015 0016 003f 0016 0015 0016 003f 0016 003f 0016 0015 0016 0015 0016 003f 0016 003f 0016 0015 0016 003f 0016 0015 0016 0015 0016 003f 0016 05f3 0156 0055 0016 0e4d</pattern>
+          <altpattern />
+        </ircode>
+        <ircode verified="False" controlrating="0">
+          <id>19136</id>
+          <name>WINDOW POSITION</name>
+          <transmit>PULSE</transmit>
+          <repeatcount>5</repeatcount>
+          <delayafter>0</delayafter>
+          <pattern>0000 006d 0022 0002 0157 00ab 0016 0015 0016 0015 0016 003f 0016 0015 0016 0015 0016 0015 0016 0015 0016 0015 0016 003f 0016 003f 0016 0015 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 0015 0016 003f 0016 0015 0016 003f 0016 0015 0016 003f 0016 003f 0016 0015 0016 003f 0016 0015 0016 003f 0016 0015 0016 003f 0016 0015 0016 0015 0016 003f 0016 05f3 0156 0055 0016 0e4d</pattern>
+          <altpattern />
+        </ircode>
+        <ircode verified="False" controlrating="0">
+          <id>24</id>
+          <name>POUND</name>
+          <transmit>PULSE</transmit>
+          <repeatcount>4</repeatcount>
+          <delayafter>0</delayafter>
+          <pattern>0000 006c 0022 0002 015a 00ac 0016 0015 0016 0015 0016 0040 0016 0015 0016 0015 0016 0015 0016 0015 0016 0015 0017 003f 0016 0040 0016 0015 0016 0040 0016 0040 0016 003f 0016 0040 0016 0040 0016 0015 0016 0015 0016 0040 0016 0040 0016 0015 0016 0015 0016 0040 0016 0015 0016 0040 0016 003f 0016 0015 0016 0016 0016 003f 0016 0040 0016 0015 0016 0040 0016 05fd 015a 0056 0016 0e60</pattern>
+          <altpattern />
+        </ircode>
+        <ircode verified="False" controlrating="0">
+          <id>23</id>
+          <name>STAR</name>
+          <transmit>PULSE</transmit>
+          <repeatcount>1</repeatcount>
+          <delayafter>0</delayafter>
+          <pattern>0000 006c 0022 0002 015a 00ac 0016 0015 0016 0015 0016 0040 0016 0015 0016 0015 0016 0015 0016 0015 0016 0015 0017 003f 0016 0040 0016 0015 0016 0040 0016 0040 0016 003f 0016 0040 0016 0040 0016 0015 0016 0015 0016 0040 0016 0040 0016 0015 0016 0015 0016 0040 0016 0015 0016 0040 0016 003f 0016 0015 0016 0016 0016 003f 0016 0040 0016 0015 0016 0040 0016 05fd 015a 0056 0016 0e60</pattern>
+          <altpattern />
+        </ircode>
+        <ircode verified="False" controlrating="0">
+          <id>22</id>
+          <name>HYPHEN</name>
+          <transmit>PULSE</transmit>
+          <repeatcount>4</repeatcount>
+          <delayafter>0</delayafter>
+          <pattern>0000 006c 0022 0002 015a 00ac 0016 0015 0016 0015 0016 0040 0016 0015 0016 0015 0016 0015 0016 0015 0016 0015 0017 003f 0016 0040 0016 0015 0016 0040 0016 0040 0016 003f 0016 0040 0016 0040 0016 0015 0016 0015 0016 0040 0016 0040 0016 0015 0016 0015 0016 0040 0016 0015 0016 0040 0016 003f 0016 0015 0016 0016 0016 003f 0016 0040 0016 0015 0016 0040 0016 05fd 015a 0056 0016 0e60</pattern>
+          <altpattern />
+        </ircode>
+        <ircode verified="False" controlrating="0">
+          <id>19130</id>
+          <name>VIDEO 1</name>
+          <transmit>PULSE</transmit>
+          <repeatcount>5</repeatcount>
+          <delayafter>0</delayafter>
+          <pattern>0000 006d 0022 0002 0157 00ab 0016 0015 0016 0015 0016 003f 0016 0015 0016 0015 0016 0015 0016 0015 0016 0015 0016 003f 0016 003f 0016 0015 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 0015 0016 003f 0016 0015 0016 003f 0016 003f 0016 0015 0016 003f 0016 0015 0016 003f 0016 0015 0016 003f 0016 0015 0016 0015 0016 003f 0016 0015 0016 003f 0016 05f3 0156 0055 0016 0e4d</pattern>
+          <altpattern />
+        </ircode>
+        <ircode verified="False" controlrating="0">
+          <id>19</id>
+          <name>NUMBER_9</name>
+          <transmit>PULSE</transmit>
+          <repeatcount>5</repeatcount>
+          <delayafter>0</delayafter>
+          <pattern>0000 006d 0022 0002 0157 00ab 0016 0015 0016 0015 0016 003f 0016 0015 0016 0015 0016 0015 0016 0015 0016 0015 0016 003f 0016 003f 0016 0015 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 0015 0016 0015 0016 003f 0016 003f 0016 0015 0016 0015 0016 0015 0016 0015 0016 003f 0016 003f 0016 0015 0016 0015 0016 003f 0016 003f 0016 003f 0016 05f3 0156 0055 0016 0e4d</pattern>
+          <altpattern />
+        </ircode>
+        <ircode verified="False" controlrating="0">
+          <id>19127</id>
+          <name>SWAP</name>
+          <transmit>PULSE</transmit>
+          <repeatcount>5</repeatcount>
+          <delayafter>0</delayafter>
+          <pattern>0000 006d 0022 0002 0157 00ab 0016 0015 0016 0015 0016 003f 0016 0015 0016 0015 0016 0015 0016 0015 0016 0015 0016 003f 0016 003f 0016 0015 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 0015 0016 0015 0016 0015 0016 003f 0016 003f 0016 0015 0016 0015 0016 0015 0016 003f 0016 003f 0016 003f 0016 0015 0016 0015 0016 003f 0016 05f3 0156 0055 0016 0e4d</pattern>
+          <altpattern />
+        </ircode>
+        <ircode verified="False" controlrating="0">
+          <id>17</id>
+          <name>NUMBER_7</name>
+          <transmit>PULSE</transmit>
+          <repeatcount>5</repeatcount>
+          <delayafter>0</delayafter>
+          <pattern>0000 006d 0022 0002 0157 00ab 0016 0015 0016 0015 0016 003f 0016 0015 0016 0015 0016 0015 0016 0015 0016 0015 0016 003f 0016 003f 0016 0015 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 0015 0016 003f 0016 0015 0016 0015 0016 0015 0016 0015 0016 0015 0016 0015 0016 003f 0016 0015 0016 003f 0016 003f 0016 003f 0016 05f3 0156 0055 0016 0e4d</pattern>
+          <altpattern />
+        </ircode>
+        <ircode verified="False" controlrating="0">
+          <id>16</id>
+          <name>NUMBER_6</name>
+          <transmit>PULSE</transmit>
+          <repeatcount>5</repeatcount>
+          <delayafter>0</delayafter>
+          <pattern>0000 006d 0022 0002 0157 00ab 0016 0015 0016 0015 0016 003f 0016 0015 0016 0015 0016 0015 0016 0015 0016 0015 0016 003f 0016 003f 0016 0015 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 0015 0016 003f 0016 003f 0016 0015 0016 003f 0016 0015 0016 0015 0016 0015 0016 003f 0016 0015 0016 0015 0016 003f 0016 0015 0016 003f 0016 003f 0016 003f 0016 05f3 0156 0055 0016 0e4d</pattern>
+          <altpattern />
+        </ircode>
+        <ircode verified="False" controlrating="0">
+          <id>19124</id>
+          <name>S-VIDEO 1</name>
+          <transmit>PULSE</transmit>
+          <repeatcount>5</repeatcount>
+          <delayafter>0</delayafter>
+          <pattern>0000 006d 0022 0002 0157 00ab 0016 0015 0016 0015 0016 003f 0016 0015 0016 0015 0016 0015 0016 0015 0016 0015 0016 003f 0016 003f 0016 0015 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 0015 0016 0015 0016 0015 0016 003f 0016 003f 0016 0015 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 0015 0016 0015 0016 003f 0016 0015 0016 0015 0016 05f3 0156 0055 0016 0e4d</pattern>
+          <altpattern />
+        </ircode>
+        <ircode verified="False" controlrating="0">
+          <id>19123</id>
+          <name>SUB INPUT , PIP INPUT</name>
+          <transmit>PULSE</transmit>
+          <repeatcount>5</repeatcount>
+          <delayafter>0</delayafter>
+          <pattern>0000 006d 0022 0002 0157 00ab 0016 0015 0016 0015 0016 003f 0016 0015 0016 0015 0016 0015 0016 0015 0016 0015 0016 003f 0016 003f 0016 0015 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 0015 0016 0015 0016 0015 0016 0015 0016 003f 0016 003f 0016 0015 0016 0015 0016 003f 0016 003f 0016 003f 0016 003f 0016 0015 0016 0015 0016 003f 0016 05f3 0156 0055 0016 0e4d</pattern>
+          <altpattern />
+        </ircode>
+        <ircode verified="False" controlrating="0">
+          <id>19122</id>
+          <name>SPLIT ZOOM</name>
+          <transmit>PULSE</transmit>
+          <repeatcount>5</repeatcount>
+          <delayafter>0</delayafter>
+          <pattern>0000 006d 0022 0002 0157 00ab 0016 0015 0016 0015 0016 003f 0016 0015 0016 0015 0016 0015 0016 0015 0016 0015 0016 003f 0016 003f 0016 0015 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 0015 0016 003f 0016 003f 0016 003f 0016 003f 0016 0015 0016 0015 0016 0015 0016 003f 0016 0015 0016 0015 0016 0015 0016 0015 0016 003f 0016 05f3 0156 0055 0016 0e4d</pattern>
+          <altpattern />
+        </ircode>
+        <ircode verified="False" controlrating="0">
+          <id>19121</id>
+          <name>RGB-PC</name>
+          <transmit>PULSE</transmit>
+          <repeatcount>5</repeatcount>
+          <delayafter>0</delayafter>
+          <pattern>0000 006d 0022 0002 0157 00ab 0016 0015 0016 0015 0016 003f 0016 0015 0016 0015 0016 0015 0016 0015 0016 0015 0016 003f 0016 003f 0016 0015 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 0015 0016 003f 0016 0015 0016 003f 0016 0015 0016 003f 0016 003f 0016 0015 0016 003f 0016 0015 0016 003f 0016 0015 0016 003f 0016 0015 0016 0015 0016 05f3 0156 0055 0016 0e4d</pattern>
+          <altpattern />
+        </ircode>
+        <ircode verified="False" controlrating="0">
+          <id>19120</id>
+          <name>RGB-DTV</name>
+          <transmit>PULSE</transmit>
+          <repeatcount>5</repeatcount>
+          <delayafter>0</delayafter>
+          <pattern>0000 006d 0022 0002 0157 00ab 0016 0015 0016 0015 0016 003f 0016 0015 0016 0015 0016 0015 0016 0015 0016 0015 0016 003f 0016 003f 0016 0015 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 0015 0016 003f 0016 0015 0016 003f 0016 003f 0016 0015 0016 0015 0016 0015 0016 003f 0016 0015 0016 003f 0016 0015 0016 0015 0016 05f3 0156 0055 0016 0e4d</pattern>
+          <altpattern />
+        </ircode>
+        <ircode verified="False" controlrating="0">
+          <id>10</id>
+          <name>NUMBER_0</name>
+          <transmit>PULSE</transmit>
+          <repeatcount>5</repeatcount>
+          <delayafter>0</delayafter>
+          <pattern>0000 006c 0022 0002 0155 00ac 0015 0016 0015 0015 0015 0042 0015 0015 0015 0016 0015 0015 0015 0016 0015 0015 0015 0042 0015 0040 0015 0016 0015 0040 0015 0041 0015 0040 0015 0041 0015 0040 0015 0016 0015 0015 0015 0016 0015 0015 0015 0041 0015 0015 0015 0016 0015 0015 0015 0042 0015 0040 0015 0042 0015 0040 0015 0016 0015 0040 0015 0042 0015 0040 0015 05f6 0155 0056 0015 0e5b</pattern>
+          <altpattern />
+        </ircode>
+        <ircode verified="False" controlrating="0">
+          <id>19118</id>
+          <name>RGB 1</name>
+          <transmit>PULSE</transmit>
+          <repeatcount>5</repeatcount>
+          <delayafter>0</delayafter>
+          <pattern>0000 006d 0022 0002 0157 00ab 0016 0015 0016 0015 0016 003f 0016 0015 0016 0015 0016 0015 0016 0015 0016 0015 0016 003f 0016 003f 0016 0015 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 0015 0016 0015 0016 0015 0016 003f 0016 003f 0016 0015 0016 0015 0016 003f 0016 003f 0016 003f 0016 003f 0016 0015 0016 0015 0016 003f 0016 003f 0016 0015 0016 05f3 0156 0055 0016 0e4d</pattern>
+          <altpattern />
+        </ircode>
+        <ircode verified="False" controlrating="0">
+          <id>8</id>
+          <name>RECORD</name>
+          <transmit>PULSE</transmit>
+          <repeatcount>5</repeatcount>
+          <delayafter>0</delayafter>
+          <pattern>0000 0067 0022 0002 0156 00ab 0016 0016 0016 0016 0016 003f 0016 0016 0016 0016 0016 0016 0016 0016 0016 0016 0016 003f 0016 003f 0016 0016 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 0016 0016 003f 0016 003f 0016 003f 0016 003f 0016 0016 0016 003f 0016 0016 0016 003f 0016 0016 0016 0016 0016 0016 0016 0016 0016 003f 0016 0016 0016 0593 0160 0058 0016 0dc0</pattern>
+          <altpattern />
+        </ircode>
+        <ircode verified="False" controlrating="0">
+          <id>7</id>
+          <name>FAST_REV</name>
+          <transmit>PULSE</transmit>
+          <repeatcount>2</repeatcount>
+          <delayafter>0</delayafter>
+          <pattern>0000 0067 0022 0002 0156 00ab 0016 0016 0016 0016 0016 003f 0016 0016 0016 0016 0016 0016 0016 0016 0016 0016 0016 003f 0016 003f 0016 0016 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 0016 0016 0016 0016 0016 0016 003f 0016 0016 0016 0016 0016 0016 0016 0016 0016 003f 0016 003f 0016 003f 0016 0016 0016 0593 0160 0058 0016 0dc0</pattern>
+          <altpattern />
+        </ircode>
+        <ircode verified="False" controlrating="0">
+          <id>6</id>
+          <name>FAST_FWD</name>
+          <transmit>PULSE</transmit>
+          <repeatcount>2</repeatcount>
+          <delayafter>0</delayafter>
+          <pattern>0000 0067 0022 0002 0156 00ab 0016 0016 0016 0016 0016 003f 0016 0016 0016 0016 0016 0016 0016 0016 0016 0016 0016 003f 0016 003f 0016 0016 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 0016 0016 003f 0016 003f 0016 003f 0016 0016 0016 0016 0016 0016 0016 003f 0016 003f 0016 0016 0016 0016 0016 0016 0016 003f 0016 003f 0016 003f 0016 0016 0016 0593 0160 0058 0016 0dc0</pattern>
+          <altpattern />
+        </ircode>
+        <ircode verified="False" controlrating="0">
+          <id>5</id>
+          <name>SKIP_REV</name>
+          <transmit>PULSE</transmit>
+          <repeatcount>2</repeatcount>
+          <delayafter>0</delayafter>
+          <pattern>0000 0067 0022 0002 0156 00ab 0016 0016 0016 0016 0016 003f 0016 0016 0016 0016 0016 0016 0016 0016 0016 0016 0016 003f 0016 003f 0016 0016 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 0016 0016 003f 0016 0016 0016 0016 0016 003f 0016 003f 0016 0016 0016 003f 0016 003f 0016 0016 0016 003f 0016 003f 0016 0016 0016 0016 0016 003f 0016 0016 0016 0593 0160 0058 0016 0dc0</pattern>
+          <altpattern />
+        </ircode>
+        <ircode verified="False" controlrating="0">
+          <id>4</id>
+          <name>SKIP_FWD</name>
+          <transmit>PULSE</transmit>
+          <repeatcount>2</repeatcount>
+          <delayafter>0</delayafter>
+          <pattern>0000 0067 0022 0002 0156 00ab 0016 0016 0016 0016 0016 003f 0016 0016 0016 0016 0016 0016 0016 0016 0016 0016 0016 003f 0016 003f 0016 0016 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 0016 0016 0016 0016 003f 0016 003f 0016 0016 0016 003f 0016 0016 0016 0016 0016 003f 0016 003f 0016 0016 0016 0016 0016 003f 0016 0016 0016 0593 0160 0058 0016 0dc0</pattern>
+          <altpattern />
+        </ircode>
+        <ircode verified="False" controlrating="0">
+          <id>3</id>
+          <name>PAUSE</name>
+          <transmit>PULSE</transmit>
+          <repeatcount>5</repeatcount>
+          <delayafter>0</delayafter>
+          <pattern>0000 0067 0022 0002 0156 00ab 0016 0016 0016 0016 0016 003f 0016 0016 0016 0016 0016 0016 0016 0016 0016 0016 0016 003f 0016 003f 0016 0016 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 0016 0016 003f 0016 0016 0016 003f 0016 003f 0016 003f 0016 0016 0016 003f 0016 003f 0016 0016 0016 003f 0016 0016 0016 0016 0016 0016 0016 003f 0016 0016 0016 0593 0160 0058 0016 0dc0</pattern>
+          <altpattern />
+        </ircode>
+        <ircode verified="False" controlrating="0">
+          <id>2</id>
+          <name>STOP</name>
+          <transmit>PULSE</transmit>
+          <repeatcount>5</repeatcount>
+          <delayafter>0</delayafter>
+          <pattern>0000 0067 0022 0002 0156 00ab 0016 0016 0016 0016 0016 003f 0016 0016 0016 0016 0016 0016 0016 0016 0016 0016 0016 003f 0016 003f 0016 0016 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 0016 0016 0016 0016 0016 0016 003f 0016 003f 0016 0016 0016 003f 0016 0016 0016 003f 0016 003f 0016 003f 0016 0016 0016 0016 0016 003f 0016 0016 0016 0593 0160 0058 0016 0dc0</pattern>
+          <altpattern />
+        </ircode>
+        <ircode verified="False" controlrating="0">
+          <id>1</id>
+          <name>PLAY</name>
+          <transmit>PULSE</transmit>
+          <repeatcount>5</repeatcount>
+          <delayafter>0</delayafter>
+          <pattern>0000 0067 0022 0002 0156 00ab 0016 0016 0016 0016 0016 003f 0016 0016 0016 0016 0016 0016 0016 0016 0016 0016 0016 003f 0016 003f 0016 0016 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 0016 0016 0016 0016 0016 0016 0016 0016 003f 0016 003f 0016 0016 0016 003f 0016 003f 0016 003f 0016 003f 0016 003f 0016 0016 0016 0016 0016 003f 0016 0016 0016 0593 0160 0058 0016 0dc0</pattern>
+          <altpattern />
+        </ircode>
+      </ircodes>
+      <ircodemacros>
+        <ircodemacro verified="False" id="5536">
+          <commandname>SET_INPUT_4</commandname>
+          <displayname>Set input 'CABLE'</displayname>
+          <codes>
+            <ircode>
+              <id>34960</id>
+            </ircode>
+          </codes>
+        </ircodemacro>
+        <ircodemacro verified="False" id="11244">
+          <commandname>SET_INPUT_12</commandname>
+          <displayname>Set input 'RGB-PC'</displayname>
+          <codes>
+            <ircode>
+              <id>19121</id>
+            </ircode>
+          </codes>
+        </ircodemacro>
+        <ircodemacro verified="False" id="8143">
+          <commandname>SET_INPUT_1</commandname>
+          <displayname>Set input 'ANTENNA'</displayname>
+          <codes>
+            <ircode>
+              <id>19093</id>
+            </ircode>
+          </codes>
+        </ircodemacro>
+        <ircodemacro verified="False" id="11247">
+          <commandname>SET_INPUT_10</commandname>
+          <displayname>Set input 'HDMI 3'</displayname>
+          <codes>
+            <ircode>
+              <id>41166</id>
+            </ircode>
+          </codes>
+        </ircodemacro>
+        <ircodemacro verified="False" id="11242">
+          <commandname>SET_INPUT_3</commandname>
+          <displayname>Set input 'AV 2'</displayname>
+          <codes>
+            <ircode>
+              <id>19131</id>
+            </ircode>
+          </codes>
+        </ircodemacro>
+        <ircodemacro verified="False" id="11245">
+          <commandname>SET_INPUT_8</commandname>
+          <displayname>Set input 'HDMI 1'</displayname>
+          <codes>
+            <ircode>
+              <id>28425</id>
+            </ircode>
+          </codes>
+        </ircodemacro>
+        <ircodemacro verified="False" id="11356">
+          <commandname>SET_INPUT_5</commandname>
+          <displayname>Set input 'COMPONENT 1'</displayname>
+          <codes>
+            <ircode>
+              <id>19097</id>
+            </ircode>
+          </codes>
+        </ircodemacro>
+        <ircodemacro verified="False" id="1107">
+          <commandname>SET_CHANNEL</commandname>
+          <displayname>Set channel</displayname>
+          <codes>
+            <ircode>
+              <id>12</id>
+            </ircode>
+            <ircode>
+              <id>12</id>
+            </ircode>
+            <ircode>
+              <id>111</id>
+            </ircode>
+            <delay>1500</delay>
+            <digits>
+              <length>3</length>
+              <type>CHANNEL</type>
+              <interdelay>650</interdelay>
+              <format />
+              <padding>left</padding>
+            </digits>
+            <delay>1500</delay>
+            <ircode>
+              <id>111</id>
+            </ircode>
+          </codes>
+        </ircodemacro>
+        <ircodemacro verified="False" id="11357">
+          <commandname>SET_INPUT_6</commandname>
+          <displayname>Set input 'COMPONENT 2'</displayname>
+          <codes>
+            <ircode>
+              <id>19098</id>
+            </ircode>
+          </codes>
+        </ircodemacro>
+        <ircodemacro verified="False" id="11241">
+          <commandname>SET_INPUT_2</commandname>
+          <displayname>Set input 'AV 1'</displayname>
+          <codes>
+            <ircode>
+              <id>19130</id>
+            </ircode>
+          </codes>
+        </ircodemacro>
+        <ircodemacro verified="False" id="11395">
+          <commandname>SET_INPUT_11</commandname>
+          <displayname>Set input 'HDMI 4'</displayname>
+          <codes>
+            <ircode>
+              <id>50997</id>
+            </ircode>
+          </codes>
+        </ircodemacro>
+        <ircodemacro verified="False" id="11246">
+          <commandname>SET_INPUT_9</commandname>
+          <displayname>Set input 'HDMI 2'</displayname>
+          <codes>
+            <ircode>
+              <id>28426</id>
+            </ircode>
+          </codes>
+        </ircodemacro>
+        <ircodemacro verified="False" id="11396">
+          <commandname>SET_INPUT_7</commandname>
+          <displayname>Set input 'COMPONENT 3'</displayname>
+          <codes>
+            <ircode>
+              <id>50998</id>
+            </ircode>
+          </codes>
+        </ircodemacro>
+      </ircodemacros>
+    </irsection>
+  </config>
+  <name>LG 47LE5500 Conrads Smart TV [IR]</name>
+  <small>devices_sm\tv.gif</small>
+  <large>devices_lg\tv.gif</large>
+  <control>av_gen</control>
+  <controlmethod>ir</controlmethod>
+  <proxies>
+    <proxy proxybindingid="5001">tv</proxy>
+  </proxies>
+  <driver>100050</driver>
+  <manufacturer>LG</manufacturer>
+  <created>5/17/2010 4:38:17 PM</created>
+  <modified>12/16/2017 12:28:17 PM</modified>
+  <copyright>Copyright 2004-2007 Control4 Corporation.  All rights reserved.</copyright>
+  <creator>tim@thawes.com</creator>
+  <model>47LE5500 Conrads Smart TV [IR]</model>
+  <search_type>c4:av_gen</search_type>
+  <states />
+  <commands />
+  <conditionals />
+  <events />
+  <connections>
+    <connection proxybindingid="5001">
+      <id>7000</id>
+      <type>7</type>
+      <connectionname>Room Selection - Output</connectionname>
+      <consumer>False</consumer>
+      <linelevel>True</linelevel>
+      <classes>
+        <class>
+          <classname>AUDIO_SELECTION</classname>
+        </class>
+        <class>
+          <classname>AUDIO_VOLUME</classname>
+        </class>
+        <class>
+          <classname>VIDEO_SELECTION</classname>
+        </class>
+      </classes>
+    </connection>
+    <connection proxybindingid="5001">
+      <id>1010</id>
+      <type>5</type>
+      <connectionname>HDMI 3</connectionname>
+      <consumer>True</consumer>
+      <linelevel>True</linelevel>
+      <classes>
+        <class>
+          <classname>HDMI</classname>
+        </class>
+      </classes>
+    </connection>
+    <connection proxybindingid="5001">
+      <id>1009</id>
+      <type>5</type>
+      <connectionname>HDMI 2</connectionname>
+      <consumer>True</consumer>
+      <linelevel>True</linelevel>
+      <classes>
+        <class>
+          <classname>HDMI</classname>
+        </class>
+      </classes>
+    </connection>
+    <connection proxybindingid="5001">
+      <id>1001</id>
+      <type>5</type>
+      <connectionname>ANTENNA</connectionname>
+      <consumer>True</consumer>
+      <linelevel>True</linelevel>
+      <classes>
+        <class>
+          <classname>RF_UHF_VHF</classname>
+        </class>
+      </classes>
+    </connection>
+    <connection>
+      <id>5001</id>
+      <type>2</type>
+      <connectionname>TV</connectionname>
+      <consumer>False</consumer>
+      <linelevel>False</linelevel>
+      <classes>
+        <class>
+          <classname>TV</classname>
+        </class>
+      </classes>
+    </connection>
+    <connection proxybindingid="5001">
+      <id>3002</id>
+      <type>6</type>
+      <connectionname>AV 1</connectionname>
+      <consumer>True</consumer>
+      <linelevel>True</linelevel>
+      <classes>
+        <class>
+          <classname>STEREO</classname>
+        </class>
+      </classes>
+    </connection>
+    <connection proxybindingid="5001">
+      <id>3003</id>
+      <type>6</type>
+      <connectionname>AV 2</connectionname>
+      <consumer>True</consumer>
+      <linelevel>True</linelevel>
+      <classes>
+        <class>
+          <classname>STEREO</classname>
+        </class>
+      </classes>
+    </connection>
+    <connection proxybindingid="5001">
+      <id>1007</id>
+      <type>5</type>
+      <connectionname>COMPONENT 3</connectionname>
+      <consumer>True</consumer>
+      <linelevel>True</linelevel>
+      <classes>
+        <class>
+          <classname>COMPONENT</classname>
+        </class>
+      </classes>
+    </connection>
+    <connection proxybindingid="5001">
+      <id>3012</id>
+      <type>6</type>
+      <connectionname>RGB-PC</connectionname>
+      <consumer>True</consumer>
+      <linelevel>True</linelevel>
+      <classes>
+        <class>
+          <classname>STEREO</classname>
+        </class>
+      </classes>
+    </connection>
+    <connection proxybindingid="5001">
+      <id>1008</id>
+      <type>5</type>
+      <connectionname>HDMI 1</connectionname>
+      <consumer>True</consumer>
+      <linelevel>True</linelevel>
+      <classes>
+        <class>
+          <classname>HDMI</classname>
+        </class>
+        <class>
+          <classname>DVI</classname>
+        </class>
+      </classes>
+    </connection>
+    <connection proxybindingid="5001">
+      <id>1012</id>
+      <type>5</type>
+      <connectionname>RGB-PC</connectionname>
+      <consumer>True</consumer>
+      <linelevel>True</linelevel>
+      <classes>
+        <class>
+          <classname>VGA</classname>
+        </class>
+      </classes>
+    </connection>
+    <connection proxybindingid="5001">
+      <id>1011</id>
+      <type>5</type>
+      <connectionname>HDMI 4</connectionname>
+      <consumer>True</consumer>
+      <linelevel>True</linelevel>
+      <classes>
+        <class>
+          <classname>HDMI</classname>
+        </class>
+      </classes>
+    </connection>
+    <connection proxybindingid="5001">
+      <id>3008</id>
+      <type>6</type>
+      <connectionname>HDMI 1</connectionname>
+      <consumer>True</consumer>
+      <linelevel>True</linelevel>
+      <classes>
+        <class>
+          <classname>STEREO</classname>
+        </class>
+      </classes>
+    </connection>
+    <connection proxybindingid="5001">
+      <id>3007</id>
+      <type>6</type>
+      <connectionname>COMPONENT 3</connectionname>
+      <consumer>True</consumer>
+      <linelevel>True</linelevel>
+      <classes>
+        <class>
+          <classname>STEREO</classname>
+        </class>
+      </classes>
+    </connection>
+    <connection proxybindingid="5001">
+      <id>3006</id>
+      <type>6</type>
+      <connectionname>COMPONENT 2</connectionname>
+      <consumer>True</consumer>
+      <linelevel>True</linelevel>
+      <classes>
+        <class>
+          <classname>STEREO</classname>
+        </class>
+      </classes>
+    </connection>
+    <connection proxybindingid="5001">
+      <id>3005</id>
+      <type>6</type>
+      <connectionname>COMPONENT 1</connectionname>
+      <consumer>True</consumer>
+      <linelevel>True</linelevel>
+      <classes>
+        <class>
+          <classname>STEREO</classname>
+        </class>
+      </classes>
+    </connection>
+    <connection proxybindingid="5001">
+      <id>1006</id>
+      <type>5</type>
+      <connectionname>COMPONENT 2</connectionname>
+      <consumer>True</consumer>
+      <linelevel>True</linelevel>
+      <classes>
+        <class>
+          <classname>COMPONENT</classname>
+        </class>
+      </classes>
+    </connection>
+    <connection proxybindingid="5001">
+      <id>1005</id>
+      <type>5</type>
+      <connectionname>COMPONENT 1</connectionname>
+      <consumer>True</consumer>
+      <linelevel>True</linelevel>
+      <classes>
+        <class>
+          <classname>COMPONENT</classname>
+        </class>
+      </classes>
+    </connection>
+    <connection proxybindingid="5001">
+      <id>1004</id>
+      <type>5</type>
+      <connectionname>CABLE</connectionname>
+      <consumer>True</consumer>
+      <linelevel>True</linelevel>
+      <classes>
+        <class>
+          <classname>RF_CABLE</classname>
+        </class>
+      </classes>
+    </connection>
+    <connection proxybindingid="5001">
+      <id>4000</id>
+      <type>6</type>
+      <connectionname>Output</connectionname>
+      <consumer>False</consumer>
+      <linelevel>True</linelevel>
+      <classes>
+        <class>
+          <classname>DIGITAL_OPTICAL</classname>
+        </class>
+      </classes>
+    </connection>
+    <connection proxybindingid="5001">
+      <id>1002</id>
+      <type>5</type>
+      <connectionname>AV 1</connectionname>
+      <consumer>True</consumer>
+      <linelevel>True</linelevel>
+      <classes>
+        <class>
+          <classname>COMPOSITE</classname>
+        </class>
+      </classes>
+    </connection>
+    <connection proxybindingid="5001">
+      <id>1003</id>
+      <type>5</type>
+      <connectionname>AV 2</connectionname>
+      <consumer>True</consumer>
+      <linelevel>True</linelevel>
+      <classes>
+        <class>
+          <classname>COMPOSITE</classname>
+        </class>
+      </classes>
+    </connection>
+    <connection proxybindingid="5001">
+      <id>1</id>
+      <type>1</type>
+      <connectionname>IR Sensor</connectionname>
+      <consumer>True</consumer>
+      <linelevel>True</linelevel>
+      <classes>
+        <class>
+          <classname>IR_OUT</classname>
+        </class>
+      </classes>
+    </connection>
+  </connections>
+  <capabilities>
+    <audio_consumer_count>7</audio_consumer_count>
+    <audio_provider_count>1</audio_provider_count>
+    <has_audio>True</has_audio>
+    <has_channel_up_down>True</has_channel_up_down>
+    <has_discrete_channel_select>True</has_discrete_channel_select>
+    <has_discrete_input_select>True</has_discrete_input_select>
+    <has_discrete_volume_control>False</has_discrete_volume_control>
+    <has_toad_input_select>True</has_toad_input_select>
+    <has_toggle_mute_control>True</has_toggle_mute_control>
+    <has_up_down_volume_control>True</has_up_down_volume_control>
+    <surround_modes />
+    <video_consumer_count>11</video_consumer_count>
+    <video_provider_count>0</video_provider_count>
+  </capabilities>
+</devicedata>

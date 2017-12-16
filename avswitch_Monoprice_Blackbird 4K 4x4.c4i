@@ -1,0 +1,545 @@
+<devicedata>
+  <version>4</version>
+  <config>
+    <irsettings />
+    <power_command_delay>0</power_command_delay>
+    <power_delay>0</power_delay>
+    <power_management_method>AlwaysOn</power_management_method>
+    <irsection>
+      <ircodes>
+        <ircode verified="False" controlrating="0">
+          <id>103</id>
+          <name>Power Toggle</name>
+          <transmit>PULSE</transmit>
+          <repeatcount>5</repeatcount>
+          <delayafter>0</delayafter>
+          <pattern>0000 006e 0022 0002 0157 00a9 0015 0016 0015 0015 0016 0015 0015 0016 0015 0015 0016 0015 0015 0016 0015 0015 0016 0040 0015 0040 0015 0040 0016 0040 0015 0040 0015 0040 0016 0040 0015 0040 0015 0016 0015 0015 0016 0040 0015 0015 0016 0040 0015 0015 0016 0015 0015 0016 0015 0040 0015 0040 0016 0015 0015 0040 0016 0015 0015 0040 0016 0040 0015 0040 0015 05d9 0155 0055 0015 0e14</pattern>
+          <altpattern />
+        </ircode>
+        <ircode verified="False" controlrating="0">
+          <id>1015</id>
+          <name>4-4</name>
+          <transmit>PULSE</transmit>
+          <repeatcount>5</repeatcount>
+          <delayafter>0</delayafter>
+          <pattern>0000 006e 0022 0002 0157 00a9 0015 0016 0015 0015 0016 0015 0015 0016 0015 0015 0016 0015 0015 0016 0015 0015 0016 0040 0015 0040 0015 0040 0016 0040 0015 0040 0015 0040 0016 0040 0015 0040 0015 0040 0016 0015 0015 0016 0015 0015 0016 0040 0015 0015 0016 0040 0015 0015 0016 0015 0015 0040 0016 0040 0015 0040 0015 0016 0015 0040 0015 0016 0015 0040 0015 05d9 0155 0055 0015 0e14</pattern>
+          <altpattern />
+        </ircode>
+        <ircode verified="False" controlrating="0">
+          <id>1014</id>
+          <name>4-3</name>
+          <transmit>PULSE</transmit>
+          <repeatcount>5</repeatcount>
+          <delayafter>0</delayafter>
+          <pattern>0000 006e 0022 0002 0157 00a9 0015 0016 0015 0015 0016 0015 0015 0016 0015 0015 0016 0015 0015 0016 0015 0015 0016 0040 0015 0040 0015 0040 0016 0040 0015 0040 0015 0040 0016 0040 0015 0040 0015 0040 0016 0040 0015 0040 0015 0040 0016 0015 0015 0016 0015 0015 0016 0015 0015 0016 0015 0015 0016 0015 0015 0016 0015 0040 0015 0040 0016 0040 0015 0040 0015 05d9 0155 0055 0015 0e14</pattern>
+          <altpattern />
+        </ircode>
+        <ircode verified="False" controlrating="0">
+          <id>1013</id>
+          <name>4-2</name>
+          <transmit>PULSE</transmit>
+          <repeatcount>5</repeatcount>
+          <delayafter>0</delayafter>
+          <pattern>0000 006e 0022 0002 0157 00a9 0015 0016 0015 0015 0016 0015 0015 0016 0015 0015 0016 0015 0015 0016 0015 0015 0016 0040 0015 0040 0015 0040 0016 0040 0015 0040 0015 0040 0016 0040 0015 0040 0015 0016 0015 0015 0016 0040 0015 0015 0016 0015 0015 0016 0015 0040 0015 0016 0015 0040 0015 0040 0016 0015 0015 0040 0016 0040 0015 0040 0015 0016 0015 0040 0015 05d9 0155 0055 0015 0e14</pattern>
+          <altpattern />
+        </ircode>
+        <ircode verified="False" controlrating="0">
+          <id>1012</id>
+          <name>4-1</name>
+          <transmit>PULSE</transmit>
+          <repeatcount>5</repeatcount>
+          <delayafter>0</delayafter>
+          <pattern>0000 006e 0022 0002 0157 00a9 0015 0016 0015 0015 0016 0015 0015 0016 0015 0015 0016 0015 0015 0016 0015 0015 0016 0040 0015 0040 0015 0040 0016 0040 0015 0040 0015 0040 0016 0040 0015 0040 0015 0016 0015 0015 0016 0015 0015 0040 0016 0040 0015 0015 0016 0015 0015 0016 0015 0040 0015 0040 0016 0040 0015 0015 0016 0015 0015 0040 0016 0040 0015 0040 0015 05d9 0155 0055 0015 0e14</pattern>
+          <altpattern />
+        </ircode>
+        <ircode verified="False" controlrating="0">
+          <id>1011</id>
+          <name>3-4</name>
+          <transmit>PULSE</transmit>
+          <repeatcount>5</repeatcount>
+          <delayafter>0</delayafter>
+          <pattern>0000 006e 0022 0002 0157 00a9 0015 0016 0015 0015 0016 0015 0015 0016 0015 0015 0016 0015 0015 0016 0015 0015 0016 0040 0015 0040 0015 0040 0016 0040 0015 0040 0015 0040 0016 0040 0015 0040 0015 0040 0016 0040 0015 0015 0016 0015 0015 0016 0015 0015 0016 0015 0015 0016 0015 0015 0016 0015 0015 0040 0016 0040 0015 0040 0015 0040 0016 0040 0015 0040 0015 05d9 0155 0055 0015 0e14</pattern>
+          <altpattern />
+        </ircode>
+        <ircode verified="False" controlrating="0">
+          <id>1010</id>
+          <name>3-3</name>
+          <transmit>PULSE</transmit>
+          <repeatcount>5</repeatcount>
+          <delayafter>0</delayafter>
+          <pattern>0000 006e 0022 0002 0157 00a9 0015 0016 0015 0015 0016 0015 0015 0016 0015 0015 0016 0015 0015 0016 0015 0015 0016 0040 0015 0040 0015 0040 0016 0040 0015 0040 0015 0040 0016 0040 0015 0040 0015 0040 0016 0015 0015 0040 0016 0015 0015 0016 0015 0015 0016 0015 0015 0016 0015 0015 0016 0040 0015 0015 0016 0040 0015 0040 0015 0040 0016 0040 0015 0040 0015 05d9 0155 0055 0015 0e14</pattern>
+          <altpattern />
+        </ircode>
+        <ircode verified="False" controlrating="0">
+          <id>1009</id>
+          <name>3-2</name>
+          <transmit>PULSE</transmit>
+          <repeatcount>5</repeatcount>
+          <delayafter>0</delayafter>
+          <pattern>0000 006e 0022 0002 0157 00a9 0015 0016 0015 0015 0016 0015 0015 0016 0015 0015 0016 0015 0015 0016 0015 0015 0016 0040 0015 0040 0015 0040 0016 0040 0015 0040 0015 0040 0016 0040 0015 0040 0015 0016 0015 0040 0015 0040 0016 0015 0015 0016 0015 0015 0016 0015 0015 0016 0015 0040 0015 0016 0015 0015 0016 0040 0015 0040 0015 0040 0016 0040 0015 0040 0015 05d9 0155 0055 0015 0e14</pattern>
+          <altpattern />
+        </ircode>
+        <ircode verified="False" controlrating="0">
+          <id>1008</id>
+          <name>3-1</name>
+          <transmit>PULSE</transmit>
+          <repeatcount>5</repeatcount>
+          <delayafter>0</delayafter>
+          <pattern>0000 006e 0022 0002 0157 00a9 0015 0016 0015 0015 0016 0015 0015 0016 0015 0015 0016 0015 0015 0016 0015 0015 0016 0040 0015 0040 0015 0040 0016 0040 0015 0040 0015 0040 0016 0040 0015 0040 0015 0016 0015 0040 0015 0040 0016 0040 0015 0040 0015 0016 0015 0040 0015 0016 0015 0040 0015 0016 0015 0015 0016 0015 0015 0016 0015 0040 0015 0016 0015 0040 0015 05d9 0155 0055 0015 0e14</pattern>
+          <altpattern />
+        </ircode>
+        <ircode verified="False" controlrating="0">
+          <id>1007</id>
+          <name>2-4</name>
+          <transmit>PULSE</transmit>
+          <repeatcount>5</repeatcount>
+          <delayafter>0</delayafter>
+          <pattern>0000 006e 0022 0002 0157 00a9 0015 0016 0015 0015 0016 0015 0015 0016 0015 0015 0016 0015 0015 0016 0015 0015 0016 0040 0015 0040 0015 0040 0016 0040 0015 0040 0015 0040 0016 0040 0015 0040 0015 0016 0015 0015 0016 0015 0015 0040 0016 0015 0015 0016 0015 0015 0016 0015 0015 0040 0016 0040 0015 0040 0015 0016 0015 0040 0015 0040 0016 0040 0015 0040 0015 05d9 0155 0055 0015 0e14</pattern>
+          <altpattern />
+        </ircode>
+        <ircode verified="False" controlrating="0">
+          <id>1006</id>
+          <name>2-3</name>
+          <transmit>PULSE</transmit>
+          <repeatcount>5</repeatcount>
+          <delayafter>0</delayafter>
+          <pattern>0000 006e 0022 0002 0157 00a9 0015 0016 0015 0015 0016 0015 0015 0016 0015 0015 0016 0015 0015 0016 0015 0015 0016 0040 0015 0040 0015 0040 0016 0040 0015 0040 0015 0040 0016 0040 0015 0040 0015 0040 0016 0015 0015 0016 0015 0040 0015 0040 0016 0015 0015 0040 0016 0015 0015 0016 0015 0040 0015 0040 0016 0015 0015 0016 0015 0040 0015 0016 0015 0040 0015 05d9 0155 0055 0015 0e14</pattern>
+          <altpattern />
+        </ircode>
+        <ircode verified="False" controlrating="0">
+          <id>1005</id>
+          <name>2-2</name>
+          <transmit>PULSE</transmit>
+          <repeatcount>5</repeatcount>
+          <delayafter>0</delayafter>
+          <pattern>0000 006e 0022 0002 0157 00a9 0015 0016 0015 0015 0016 0015 0015 0016 0015 0015 0016 0015 0015 0016 0015 0015 0016 0040 0015 0040 0015 0040 0016 0040 0015 0040 0015 0040 0016 0040 0015 0040 0015 0016 0015 0040 0015 0016 0015 0015 0016 0040 0015 0015 0016 0015 0015 0016 0015 0040 0015 0016 0015 0040 0015 0040 0016 0015 0015 0040 0016 0040 0015 0040 0015 05d9 0155 0055 0015 0e14</pattern>
+          <altpattern />
+        </ircode>
+        <ircode verified="False" controlrating="0">
+          <id>1004</id>
+          <name>2-1</name>
+          <transmit>PULSE</transmit>
+          <repeatcount>5</repeatcount>
+          <delayafter>0</delayafter>
+          <pattern>0000 006e 0022 0002 0157 00a9 0015 0016 0015 0015 0016 0015 0015 0016 0015 0015 0016 0015 0015 0016 0015 0015 0016 0040 0015 0040 0015 0040 0016 0040 0015 0040 0015 0040 0016 0040 0015 0040 0015 0040 0016 0040 0015 0040 0015 0016 0015 0040 0015 0016 0015 0015 0016 0015 0015 0016 0015 0015 0016 0015 0015 0040 0016 0015 0015 0040 0016 0040 0015 0040 0015 05d9 0155 0055 0015 0e14</pattern>
+          <altpattern />
+        </ircode>
+        <ircode verified="False" controlrating="0">
+          <id>1003</id>
+          <name>1-4</name>
+          <transmit>PULSE</transmit>
+          <repeatcount>5</repeatcount>
+          <delayafter>0</delayafter>
+          <pattern>0000 006e 0022 0002 0157 00a9 0015 0016 0015 0015 0016 0015 0015 0016 0015 0015 0016 0015 0015 0016 0015 0015 0016 0040 0015 0040 0015 0040 0016 0040 0015 0040 0015 0040 0016 0040 0015 0040 0015 0040 0016 0015 0015 0040 0016 0040 0015 0015 0016 0015 0015 0016 0015 0015 0016 0015 0015 0040 0016 0015 0015 0016 0015 0040 0015 0040 0016 0040 0015 0040 0015 05d9 0155 0055 0015 0e14</pattern>
+          <altpattern />
+        </ircode>
+        <ircode verified="False" controlrating="0">
+          <id>1002</id>
+          <name>1-3</name>
+          <transmit>PULSE</transmit>
+          <repeatcount>5</repeatcount>
+          <delayafter>0</delayafter>
+          <pattern>0000 006e 0022 0002 0157 00a9 0015 0016 0015 0015 0016 0015 0015 0016 0015 0015 0016 0015 0015 0016 0015 0015 0016 0040 0015 0040 0015 0040 0016 0040 0015 0040 0015 0040 0016 0040 0015 0040 0015 0040 0016 0040 0015 0040 0015 0040 0016 0040 0015 0015 0016 0015 0015 0016 0015 0015 0016 0015 0015 0016 0015 0015 0016 0015 0015 0040 0016 0040 0015 0040 0015 05d9 0155 0055 0015 0e14</pattern>
+          <altpattern />
+        </ircode>
+        <ircode verified="False" controlrating="0">
+          <id>1001</id>
+          <name>1-2</name>
+          <transmit>PULSE</transmit>
+          <repeatcount>5</repeatcount>
+          <delayafter>0</delayafter>
+          <pattern>0000 006e 0022 0002 0157 00a9 0015 0016 0015 0015 0016 0015 0015 0016 0015 0015 0016 0015 0015 0016 0015 0015 0016 0040 0015 0040 0015 0040 0016 0040 0015 0040 0015 0040 0016 0040 0015 0040 0015 0040 0016 0015 0015 0040 0016 0040 0015 0040 0015 0016 0015 0015 0016 0015 0015 0016 0015 0040 0015 0016 0015 0015 0016 0015 0015 0040 0016 0040 0015 0040 0015 05d9 0155 0055 0015 0e15</pattern>
+          <altpattern />
+        </ircode>
+        <ircode verified="False" controlrating="0">
+          <id>1000</id>
+          <name>1-1</name>
+          <transmit>PULSE</transmit>
+          <repeatcount>5</repeatcount>
+          <delayafter>0</delayafter>
+          <pattern>0000 006e 0022 0002 0157 00a9 0015 0016 0015 0015 0016 0015 0015 0016 0015 0015 0016 0015 0015 0016 0015 0015 0016 0040 0015 0040 0015 0040 0016 0040 0015 0040 0015 0040 0016 0040 0015 0040 0015 0040 0016 0015 0015 0016 0015 0040 0015 0016 0015 0015 0016 0015 0015 0016 0015 0015 0016 0040 0015 0040 0015 0016 0015 0040 0015 0040 0016 0040 0015 0040 0015 05d9 0155 0055 0015 0e15</pattern>
+          <altpattern />
+        </ircode>
+      </ircodes>
+      <ircodemacros>
+        <ircodemacro verified="False" id="0">
+          <commandname>DISCONNECT_OUTPUT_3</commandname>
+          <displayname>Disconnect output Output 4</displayname>
+        </ircodemacro>
+        <ircodemacro verified="False" id="0">
+          <commandname>SET_OUTPUT_INPUT_1_3</commandname>
+          <displayname>Switch output Output 2 to input Input 4</displayname>
+          <codes>
+            <ircode>
+              <id>1007</id>
+            </ircode>
+          </codes>
+        </ircodemacro>
+        <ircodemacro verified="False" id="0">
+          <commandname>SET_OUTPUT_INPUT_3_0</commandname>
+          <displayname>Switch output Output 4 to input Input 1</displayname>
+          <codes>
+            <ircode>
+              <id>1012</id>
+            </ircode>
+          </codes>
+        </ircodemacro>
+        <ircodemacro verified="False" id="0">
+          <commandname>SET_OUTPUT_INPUT_1_1</commandname>
+          <displayname>Switch output Output 2 to input Input 2</displayname>
+          <codes>
+            <ircode>
+              <id>1005</id>
+            </ircode>
+          </codes>
+        </ircodemacro>
+        <ircodemacro verified="False" id="0">
+          <commandname>DISCONNECT_OUTPUT_1</commandname>
+          <displayname>Disconnect output Output 2</displayname>
+        </ircodemacro>
+        <ircodemacro verified="False" id="0">
+          <commandname>CONNECT_OUTPUT_0</commandname>
+          <displayname>Connect output Output 1</displayname>
+        </ircodemacro>
+        <ircodemacro verified="False" id="0">
+          <commandname>SET_OUTPUT_INPUT_0_2</commandname>
+          <displayname>Switch output Output 1 to input Input 3</displayname>
+          <codes>
+            <ircode>
+              <id>1002</id>
+            </ircode>
+          </codes>
+        </ircodemacro>
+        <ircodemacro verified="False" id="0">
+          <commandname>SET_OUTPUT_INPUT_2_3</commandname>
+          <displayname>Switch output Output 3 to input Input 4</displayname>
+          <codes>
+            <ircode>
+              <id>1011</id>
+            </ircode>
+          </codes>
+        </ircodemacro>
+        <ircodemacro verified="False" id="0">
+          <commandname>CONNECT_OUTPUT_2</commandname>
+          <displayname>Connect output Output 3</displayname>
+        </ircodemacro>
+        <ircodemacro verified="False" id="0">
+          <commandname>SET_OUTPUT_INPUT_0_0</commandname>
+          <displayname>Switch output Output 1 to input Input 1</displayname>
+          <codes>
+            <ircode>
+              <id>1000</id>
+            </ircode>
+          </codes>
+        </ircodemacro>
+        <ircodemacro verified="False" id="0">
+          <commandname>SET_OUTPUT_INPUT_2_1</commandname>
+          <displayname>Switch output Output 3 to input Input 2</displayname>
+          <codes>
+            <ircode>
+              <id>1009</id>
+            </ircode>
+          </codes>
+        </ircodemacro>
+        <ircodemacro verified="False" id="0">
+          <commandname>DISCONNECT_OUTPUT_2</commandname>
+          <displayname>Disconnect output Output 3</displayname>
+        </ircodemacro>
+        <ircodemacro verified="False" id="0">
+          <commandname>SET_OUTPUT_INPUT_0_3</commandname>
+          <displayname>Switch output Output 1 to input Input 4</displayname>
+          <codes>
+            <ircode>
+              <id>1003</id>
+            </ircode>
+          </codes>
+        </ircodemacro>
+        <ircodemacro verified="False" id="0">
+          <commandname>SET_OUTPUT_INPUT_1_2</commandname>
+          <displayname>Switch output Output 2 to input Input 3</displayname>
+          <codes>
+            <ircode>
+              <id>1006</id>
+            </ircode>
+          </codes>
+        </ircodemacro>
+        <ircodemacro verified="False" id="0">
+          <commandname>SET_OUTPUT_INPUT_3_3</commandname>
+          <displayname>Switch output Output 4 to input Input 4</displayname>
+          <codes>
+            <ircode>
+              <id>1015</id>
+            </ircode>
+          </codes>
+        </ircodemacro>
+        <ircodemacro verified="False" id="0">
+          <commandname>SET_OUTPUT_INPUT_1_0</commandname>
+          <displayname>Switch output Output 2 to input Input 1</displayname>
+          <codes>
+            <ircode>
+              <id>1004</id>
+            </ircode>
+          </codes>
+        </ircodemacro>
+        <ircodemacro verified="False" id="0">
+          <commandname>SET_OUTPUT_INPUT_3_1</commandname>
+          <displayname>Switch output Output 4 to input Input 2</displayname>
+          <codes>
+            <ircode>
+              <id>1013</id>
+            </ircode>
+          </codes>
+        </ircodemacro>
+        <ircodemacro verified="False" id="0">
+          <commandname>CONNECT_OUTPUT_1</commandname>
+          <displayname>Connect output Output 2</displayname>
+        </ircodemacro>
+        <ircodemacro verified="False" id="0">
+          <commandname>SET_OUTPUT_INPUT_2_2</commandname>
+          <displayname>Switch output Output 3 to input Input 3</displayname>
+          <codes>
+            <ircode>
+              <id>1010</id>
+            </ircode>
+          </codes>
+        </ircodemacro>
+        <ircodemacro verified="False" id="0">
+          <commandname>CONNECT_OUTPUT_3</commandname>
+          <displayname>Connect output Output 4</displayname>
+        </ircodemacro>
+        <ircodemacro verified="False" id="0">
+          <commandname>DISCONNECT_OUTPUT_0</commandname>
+          <displayname>Disconnect output Output 1</displayname>
+        </ircodemacro>
+        <ircodemacro verified="False" id="0">
+          <commandname>SET_OUTPUT_INPUT_2_0</commandname>
+          <displayname>Switch output Output 3 to input Input 1</displayname>
+          <codes>
+            <ircode>
+              <id>1008</id>
+            </ircode>
+          </codes>
+        </ircodemacro>
+        <ircodemacro verified="False" id="0">
+          <commandname>SET_OUTPUT_INPUT_3_2</commandname>
+          <displayname>Switch output Output 4 to input Input 3</displayname>
+          <codes>
+            <ircode>
+              <id>1014</id>
+            </ircode>
+          </codes>
+        </ircodemacro>
+        <ircodemacro verified="False" id="0">
+          <commandname>SET_OUTPUT_INPUT_0_1</commandname>
+          <displayname>Switch output Output 1 to input Input 2</displayname>
+          <codes>
+            <ircode>
+              <id>1001</id>
+            </ircode>
+          </codes>
+        </ircodemacro>
+      </ircodemacros>
+    </irsection>
+  </config>
+  <name>Monoprice Blackbird 4K 4x4</name>
+  <small />
+  <large />
+  <control>av_gen</control>
+  <controlmethod>ir</controlmethod>
+  <proxies>
+    <proxy proxybindingid="5001">avswitch</proxy>
+  </proxies>
+  <driver>100050</driver>
+  <manufacturer>Monoprice</manufacturer>
+  <created>8/23/2017 6:09:17 PM</created>
+  <modified>8/23/2017 6:41:54 PM</modified>
+  <copyright>Copyright 2004-2005 Control4 Corporation.  All rights reserved.</copyright>
+  <creator>tim@thawes.com</creator>
+  <model>Blackbird 4K 4x4</model>
+  <search_type name="">c4:av_gen</search_type>
+  <states />
+  <commands />
+  <conditionals />
+  <events />
+  <connections>
+    <connection>
+      <id>2002</id>
+      <type>5</type>
+      <connectionname>Output 3</connectionname>
+      <consumer>False</consumer>
+      <linelevel>True</linelevel>
+      <classes>
+        <class>
+          <classname>HDMI</classname>
+        </class>
+      </classes>
+    </connection>
+    <connection>
+      <id>1</id>
+      <type>1</type>
+      <connectionname>IR Sensor</connectionname>
+      <consumer>True</consumer>
+      <linelevel>True</linelevel>
+      <classes>
+        <class>
+          <classname>IR_OUT</classname>
+        </class>
+      </classes>
+    </connection>
+    <connection>
+      <id>1001</id>
+      <type>5</type>
+      <connectionname>Input 2</connectionname>
+      <consumer>True</consumer>
+      <linelevel>True</linelevel>
+      <classes>
+        <class>
+          <classname>HDMI</classname>
+        </class>
+      </classes>
+    </connection>
+    <connection>
+      <id>7003</id>
+      <type>7</type>
+      <connectionname>Output 4 Video End-Point</connectionname>
+      <consumer>False</consumer>
+      <linelevel>True</linelevel>
+      <classes>
+        <class>
+          <classname>VIDEO_SELECTION</classname>
+        </class>
+      </classes>
+    </connection>
+    <connection>
+      <id>7002</id>
+      <type>7</type>
+      <connectionname>Output 3 Video End-Point</connectionname>
+      <consumer>False</consumer>
+      <linelevel>True</linelevel>
+      <classes>
+        <class>
+          <classname>VIDEO_SELECTION</classname>
+        </class>
+      </classes>
+    </connection>
+    <connection>
+      <id>7001</id>
+      <type>7</type>
+      <connectionname>Output 2 Video End-Point</connectionname>
+      <consumer>False</consumer>
+      <linelevel>True</linelevel>
+      <classes>
+        <class>
+          <classname>VIDEO_SELECTION</classname>
+        </class>
+      </classes>
+    </connection>
+    <connection>
+      <id>7000</id>
+      <type>7</type>
+      <connectionname>Output 1 Video End-Point</connectionname>
+      <consumer>False</consumer>
+      <linelevel>True</linelevel>
+      <classes>
+        <class>
+          <classname>VIDEO_SELECTION</classname>
+        </class>
+      </classes>
+    </connection>
+    <connection>
+      <id>5001</id>
+      <type>2</type>
+      <connectionname>AV Switch</connectionname>
+      <consumer>False</consumer>
+      <linelevel>True</linelevel>
+      <classes>
+        <class>
+          <classname>AVSWITCH</classname>
+        </class>
+      </classes>
+    </connection>
+    <connection>
+      <id>2003</id>
+      <type>5</type>
+      <connectionname>Output 4</connectionname>
+      <consumer>False</consumer>
+      <linelevel>True</linelevel>
+      <classes>
+        <class>
+          <classname>HDMI</classname>
+        </class>
+      </classes>
+    </connection>
+    <connection>
+      <id>1003</id>
+      <type>5</type>
+      <connectionname>Input 4</connectionname>
+      <consumer>True</consumer>
+      <linelevel>True</linelevel>
+      <classes>
+        <class>
+          <classname>HDMI</classname>
+        </class>
+      </classes>
+    </connection>
+    <connection>
+      <id>1002</id>
+      <type>5</type>
+      <connectionname>Input 3</connectionname>
+      <consumer>True</consumer>
+      <linelevel>True</linelevel>
+      <classes>
+        <class>
+          <classname>HDMI</classname>
+        </class>
+      </classes>
+    </connection>
+    <connection>
+      <id>2000</id>
+      <type>5</type>
+      <connectionname>Output 1</connectionname>
+      <consumer>False</consumer>
+      <linelevel>True</linelevel>
+      <classes>
+        <class>
+          <classname>HDMI</classname>
+        </class>
+      </classes>
+    </connection>
+    <connection>
+      <id>1000</id>
+      <type>5</type>
+      <connectionname>Input 1</connectionname>
+      <consumer>True</consumer>
+      <linelevel>True</linelevel>
+      <classes>
+        <class>
+          <classname>HDMI</classname>
+        </class>
+      </classes>
+    </connection>
+    <connection>
+      <id>2001</id>
+      <type>5</type>
+      <connectionname>Output 2</connectionname>
+      <consumer>False</consumer>
+      <linelevel>True</linelevel>
+      <classes>
+        <class>
+          <classname>HDMI</classname>
+        </class>
+      </classes>
+    </connection>
+  </connections>
+  <capabilities>
+    <audio_consumer_count>0</audio_consumer_count>
+    <audio_provider_count>0</audio_provider_count>
+    <has_audio>False</has_audio>
+    <has_audio_signal_sense>True</has_audio_signal_sense>
+    <has_discrete_input_select>True</has_discrete_input_select>
+    <has_toad_input_select>False</has_toad_input_select>
+    <has_video_signal_sense>True</has_video_signal_sense>
+    <video_consumer_count>4</video_consumer_count>
+    <video_provider_count>4</video_provider_count>
+  </capabilities>
+</devicedata>
